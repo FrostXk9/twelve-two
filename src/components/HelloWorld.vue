@@ -1,60 +1,317 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa" target="_blank" rel="noopener">pwa</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
-</template>
+  <!-- data-aos="fade-up" data-aos-anchor-placement="center-center" -->
 
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+  <div class="position-relative overflow-hidden text-center" id="landingPage">
+
+    <div class="col-md-12 p-lg-2 mx-auto" id="childpg34">
+      
+        <div id="rotate">
+          <div class="rtpov">
+            <p class="text-decoration-underline fw-bold">Grow your</p>
+            <div id="words">
+              <span class="word">Business</span>
+              <span class="word">Knowledge</span>
+              <span class="word">Finance</span>
+              <span class="word">Mindset</span>
+              <span class="word">Resillience</span>
+            </div>
+          </div>
+        </div>
+
+  
+        <div class="display-1 fw-bold text-black my-1" id="fontify">
+          Twelve Two <span id="floatLikeInt">2</span>
+        </div>
+  
+        <p class="fw-bold text-black text-center mb-2 px-5 mx-3">Twelve two is dedicated to empowering individuals on their financial journey through coaching.Our mission is to demystify personal finance, fostering confidence and success. <br> Guided by a commitment to holistic financial wellness, we provide tailored coaching services, equipping clients with practical tools and strategies for spending plans,investing,and debt elimination. <br> At Twelve Two, we belive in a collaborative approach, working alongside you to transform financial goals into achievable realities.Let us be your partner in navigating the path to financial well-being</p>
+        
+        <!-- <details>
+          <summary>Text</summary>
+          something about this bussiness
+        </details> -->
+        
+        <div class="mb-4">
+
+          <h3>Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: #000000;"></i></h3>
+
+          <p class="small text-center text-black-50">Build your knowledge today!</p>
+
+        </div>
+
+        <div class="d-flex gap-5 mb-4 justify-content-center lead fw-normal mt-1">
+  
+          <ButtonComp />
+  
+        </div>
+
+
+        
+      </div>
+
+      <!-- <div class="p-1 text-center" id="jumbotron234">
+          <div class="container-fluid py-2">
+            <p class="text-black fw-bold"><q>Someone is sitting in the shade today because someone planted a tree a long time ago</q></p>
+            <br>
+            <p class="small text-black">- Warren Bufffet -</p>
+          </div>
+         <p class="small text-black"> @twelve two affirmation</p>
+        </div> -->
+
+  
+      <!-- <div class="container">
+
+        <h3>Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: #000000;"></i></h3>
+
+        <p class="small text-center text-black-50">Build your knowledge in money</p>
+
+      </div> -->
+      
+      <!-- <div class="container-fluid my-0 mx-4 p-1 d-flex justify-content-evenly" id="iconBox">
+  
+        <div class="d-flex">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="61" viewBox="0 0 54 61" fill="none">
+        
+            <path d="M53.0281 10.7168C49.1527 6.22382 44.032 2.98097 38.3135 1.3983C32.595 -0.184371 26.5357 -0.0357775 20.9017 1.82529C15.2676 3.68636 10.312 7.17631 6.66145 11.8538C3.01089 16.5313 0.829356 22.1863 0.392713 28.1037C-0.0439294 34.021 1.28393 39.935 4.20838 45.0977C7.13283 50.2603 11.5225 54.4399 16.8223 57.1078C22.1222 59.7756 28.0941 60.812 33.9829 60.0859C39.8718 59.3597 45.413 56.9036 49.906 53.0281L44.0946 46.2908C40.9342 49.0168 37.0363 50.7445 32.894 51.2553C28.7517 51.7661 24.5509 51.0371 20.8229 49.1605C17.0949 47.2838 14.0071 44.3439 11.95 40.7123C9.89292 37.0808 8.95888 32.9208 9.26602 28.7584C9.57316 24.5961 11.1077 20.6182 13.6756 17.328C16.2434 14.0377 19.7293 11.5828 23.6924 10.2737C27.6555 8.96461 31.9177 8.86009 35.9402 9.97337C39.9627 11.0867 43.5647 13.3677 46.2908 16.5282L53.0281 10.7168Z" fill="#88CB34"/>
+            
+          </svg>
+  
+          <div id="text">Check out latest Events
+
+            <div>
+
+              <button class="btn mt-1" id="btn">Book Event</button>
+
+            </div>
+
+          </div>
+          
+        </div>
+        
+      </div> -->
+      
+    </div>      
+  </template>
+  
+  <script>
+  
+  import AOS from 'aos';
+  import ButtonComp from './ButtonComp.vue';
+  
+  export default {
+    components : {
+      ButtonComp
+    },
+    
+    mounted(){
+      AOS.init()
+    }
   }
-}
-</script>
+  
+  </script>
+  
+  <style scoped>
+  #landingPage{
+    /* overflow: hidden; */
+    background-image: url("https://cdn-images.imagevenue.com/01/0a/51/ME17NW2C_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-image: fill 0 linear-gradient(rgba(130, 128, 128, 0.451), #f3eeee21);
+  }
+  
+  #fontify{
+    /* background-color: rgba(255, 255, 255, 0.266);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.241); */
+    background: linear-gradient(to right,#136e03, rgb(55, 255, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #btn{
+    font-weight: 600;
+  }
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
+
+  #jumbotron234{
+    background:  rgba(62, 62, 62, 0.346) !important;
+    width: 25%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 1px 30px 4px rgba(28, 28, 29, 0.34);
+    border-radius: 50px;
+  }
+  
+  
+  #btn:hover{
+    color: rgb(53, 230, 3);
+    background-color: rgba(245, 245, 245, 0.214);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    transform: scale(100.5%);
+  }
+  
+  
+  #rotate {
+    --bg-color: #21212100;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #floatLikeInt{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 800;
+    background: linear-gradient(to right,#000000, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .rtpov {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #words {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .word {
+    display: block;
+    height: 100%;
+    padding-left: 6px;
+    color: rgb(0, 216, 0);
+    animation: spin_4991 11s infinite;
+    font-weight: 700;
+  }
+  
+  @keyframes spin_4991 {
+    10% {
+      -webkit-transform: translateY(-102%);
+      transform: translateY(-102%);
+    }
+  
+    25% {
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  
+    35% {
+      -webkit-transform: translateY(-202%);
+      transform: translateY(-202%);
+    }
+  
+    50% {
+      -webkit-transform: translateY(-200%);
+      transform: translateY(-200%);
+    }
+  
+    60% {
+      -webkit-transform: translateY(-302%);
+      transform: translateY(-302%);
+    }
+  
+    75% {
+      -webkit-transform: translateY(-300%);
+      transform: translateY(-300%);
+    }
+  
+    85% {
+      -webkit-transform: translateY(-402%);
+      transform: translateY(-402%);
+    }
+  
+    100% {
+      -webkit-transform: translateY(-400%);
+      transform: translateY(-400%);
+    }
+  }
+  
+  h3 {
+    margin: 40px 0 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  #landingPage{
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 100vh;
+    width: 100%;
+  }
+  a {
+    color: #42b983;
+  }
+  
+  #text{
+    padding: 17px  0px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 550px) {
+    #iconBox{
+      display: flex;
+      flex-direction: column;
+      padding-left: 120px !important;
+    }
+  
+    #landingPage{
+      padding-top: 70px !important;
+    }
+  }
+  
+  
+  @media (max-width: 450px) {
+    #iconBox{
+      display: flex;
+      flex-direction: column;
+      padding-left: 60px !important;
+    }
+  
+    #landingPage{
+      padding-top: 70px !important;
+    }
+  }
+  
+  
+  @media (max-width: 325px) {
+    #iconBox{
+      display: flex;
+      flex-direction: column;
+      padding-left: 20px !important;
+    }
+  
+    #landingPage{
+      padding-top: 70px !important;
+    }
+  }
+  
+  </style>
+  
