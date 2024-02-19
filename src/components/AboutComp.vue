@@ -9,7 +9,7 @@
 
         <dividerComp />
 
-        <p class="col-md-12 fs-4 mt-4 text-white" data-aos="fade-up" data-aos-anchor-placement="center">
+        <p class="col-md-12 fs-4 mt-4 text-white container" data-aos="fade-up" data-aos-anchor-placement="center">
           With a combined experience of over two decades in investment management industry, our team collaborates closely with top-tier experts in legal, tax ,accounting, and financial planning.This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.
         </p>
         <p class="text-white-50"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @Twelve Two affirmation</p>
@@ -71,10 +71,56 @@
     </div>
   </div>
 
+  
+  <div class="container my-4">
 
+    <h1 class="display-5 fw-bold text-black">Insights</h1>
 
+    <dividerComp />
 
+  </div>
+  <div id="carousel" class="container p-4 gap-4" data-aos="fade-up" data-aos-anchor-placement="center">
 
+    <div class="d-flex row justify-content-center">
+
+      <div class="card mb-3">
+        <img src="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img src="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img src="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <img src="" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
 
 
   </div>
@@ -108,6 +154,17 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.289), #00000075);
+  }
+
+
+  #carousel{
+    display: flex !important;
+    overflow-x: scroll !important;
+    max-width: 100% !important;
+    background-image: url('https://cdn-images.imagevenue.com/21/a2/3e/ME17O37I_o.jpg');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   #txt{
