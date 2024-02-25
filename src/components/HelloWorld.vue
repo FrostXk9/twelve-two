@@ -316,6 +316,23 @@
     #landingPage{
       padding-top: 70px !important;
     }
+
+  .rtpov {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  #icw221{
+    display: none;
+  }
   }
   
   
@@ -329,6 +346,23 @@
     #landingPage{
       padding-top: 70px !important;
     }
+
+    .rtpov {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  #icw221{
+    display: none;
+  }
   }
   
   
@@ -342,6 +376,21 @@
     #landingPage{
       padding-top: 70px !important;
     }
+    .rtpov {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #icw221{
+    display: none;
+  }
   }
   
   </style>
