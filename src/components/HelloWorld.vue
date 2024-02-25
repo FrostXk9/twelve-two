@@ -3,27 +3,32 @@
 
   <div class="position-relative overflow-hidden text-center" id="landingPage">
 
-    <div class="col-md-12 p-lg-2 mx-auto" id="childpg34">
+    <div class="col-md-12 p-lg-2 mx-auto container" id="childpg34">
       
-        <div id="rotate">
-          <div class="rtpov">
-            <p class="text-decoration-underline fw-bold">Grow your</p>
-            <div id="words">
-              <span class="word">Business</span>
-              <span class="word">Knowledge</span>
-              <span class="word">Finance</span>
-              <span class="word">Mindset</span>
-              <span class="word">Resillience</span>
-            </div>
+      
+      
+      <div class="display-1 fw-bold text-black my-1" id="fontify">
+        Twelve Two <span id="floatLikeInt">2</span>
+      </div>
+      
+      <div id="rotate">
+        <div class="rtpov">
+          <p class="fw-bold text-white">Financial</p>
+          <div id="words">
+            <span class="word">Knowledge</span>
+            <span class="word">Coaching</span>
+            <span class="word">Freedom</span>
+            <span class="word">Mindset</span>
+            <span class="word">Resillience</span>
           </div>
         </div>
-
-  
-        <div class="display-1 fw-bold text-black my-1" id="fontify">
-          Twelve Two <span id="floatLikeInt">2</span>
+      </div>
+      
+        <div class="display-5 fw-bold text-white">
+          Get expert advice on how to manage your money 
         </div>
   
-        <p class="fw-bold text-black text-center mb-2 px-5 mx-3">Twelve two is dedicated to empowering individuals on their financial journey through coaching.Our mission is to demystify personal finance, fostering confidence and success. <br> Guided by a commitment to holistic financial wellness, we provide tailored coaching services, equipping clients with practical tools and strategies for spending plans,investing,and debt elimination. <br> At Twelve Two, we belive in a collaborative approach, working alongside you to transform financial goals into achievable realities.Let us be your partner in navigating the path to financial well-being</p>
+        <!-- <p class="fw-bold text-black text-center mb-2 px-5 mx-3">Twelve two is dedicated to empowering individuals on their financial journey through coaching.Our mission is to demystify personal finance, fostering confidence and success. <br> Guided by a commitment to holistic financial wellness, we provide tailored coaching services, equipping clients with practical tools and strategies for spending plans,investing,and debt elimination. <br> At Twelve Two, we belive in a collaborative approach, working alongside you to transform financial goals into achievable realities.Let us be your partner in navigating the path to financial well-being</p> -->
         
         <!-- <details>
           <summary>Text</summary>
@@ -32,9 +37,9 @@
         
         <div class="mb-4">
 
-          <h3>Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: #000000;"></i></h3>
+          <h3 class="text-white">Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: rgb(53, 230, 3);"></i></h3>
 
-          <p class="small text-center text-black-50">Build your knowledge today!</p>
+          <p class="small text-center text-white-50">Build your knowledge today!</p>
 
         </div>
 
@@ -42,6 +47,17 @@
   
           <ButtonComp />
   
+        </div>
+
+
+        
+        <div id="icw221">
+          <div class="fw-normal text-white">
+            Get to know us more
+          </div>
+          <a href="#about">
+            <img src="https://cdn-images.imagevenue.com/1c/cd/f0/ME17OW6E_o.png" alt="Double Down.png">
+          </a>
         </div>
 
 
@@ -113,7 +129,7 @@
   <style scoped>
   #landingPage{
     /* overflow: hidden; */
-    background-image: url("https://cdn-images.imagevenue.com/01/0a/51/ME17NW2C_o.jpg");
+    background-image: url("https://cdn-images.imagevenue.com/81/8f/87/ME17OVUR_o.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -121,7 +137,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-image: fill 0 linear-gradient(rgba(130, 128, 128, 0.451), #f3eeee21);
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.665), #030404a6);
   }
   
   #fontify{
@@ -130,7 +146,7 @@
     backdrop-filter: blur(2px);
     border-radius: 30px;
     box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.241); */
-    background: linear-gradient(to right,#136e03, rgb(55, 255, 0));
+    background: linear-gradient(to right,#48DD22, rgb(55, 255, 0));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -170,7 +186,7 @@
     position: absolute;
     font-size: 20px;
     font-weight: 800;
-    background: linear-gradient(to right,#000000, rgb(0, 0, 0));
+    background: linear-gradient(to right,#ffffff, rgb(235, 235, 235));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -180,10 +196,10 @@
     color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 50px;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-    height: 40px;
+    height: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -258,11 +274,13 @@
     display: inline-block;
     margin: 0 10px;
   }
+
   #landingPage{
     background-color: rgba(0, 0, 0, 0);
     min-height: 100vh;
     width: 100%;
   }
+
   a {
     color: #42b983;
   }
@@ -271,6 +289,19 @@
     padding: 17px  0px;
     color: rgb(0, 0, 0);
     font-weight: bold;
+  }
+
+
+  #icw221{
+    transform: scale(80%) translateY(190px);
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all 0.7s ease-in-out;
+  }
+
+  #icw221:hover{
+    transform: scale(80%) translateY(185px);
+    transition: all 0.7s ease-in-out;
   }
   
   /* Media queries */

@@ -26,16 +26,16 @@ export default {
     width: 20%;
     text-transform: uppercase;
     text-decoration: none;
-    border: none;
+    border: 1px solid white;
     padding: 10px 5px;
     font-size: 15px;
     font-weight: bold;
     background: transparent;
     position: relative;
     transition: all 0.3s;
-    background-color: #94e630;
+    background-color: #48DD22;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
 }
 
@@ -48,11 +48,12 @@ export default {
     content: '';
     position: absolute;
     height: 100%;
+    border: 1px solid rgb(2, 255, 10);
     width: 0%;
     top: 0;
     left: -50px;
     transform: skewX(50deg);
-    background-color: #4aab2681;
+    background-color: #00000081;
     z-index: 1;
     transition: all 0.6s;
 }
@@ -71,16 +72,16 @@ export default {
     width: 35%;
     text-transform: uppercase;
     text-decoration: none;
-    border: none;
+    border: 1px solid white;
     padding: 10px 5px;
     font-size: 10px;
     font-weight: bold;
     background: transparent;
     position: relative;
     transition: all 0.3s;
-    background-color: #94e630;
+    background-color: #48DD22;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
 }
 
@@ -92,7 +93,7 @@ export default {
     top: 0;
     left: -50px;
     transform: skewX(50deg);
-    background-color: #ffffff68;
+    background-color: #00000081;
     z-index: 1;
     transition: all 1s;
 }
@@ -109,16 +110,16 @@ export default {
     width: 35%;
     text-transform: uppercase;
     text-decoration: none;
-    border: none;
+    border: 1px solid white;
     padding: 10px 5px;
     font-size: 10px;
     font-weight: bold;
     background: transparent;
     position: relative;
     transition: all 0.3s;
-    background-color: #94e630;
+    background-color: #48DD22;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
 }
 
@@ -130,7 +131,7 @@ export default {
     top: 0;
     left: -50px;
     transform: skewX(50deg);
-    background-color: #ffffff68;
+    background-color: #00000081;
     z-index: 1;
     transition: all 1s;
 }
@@ -150,16 +151,16 @@ export default {
     width: 35%;
     text-transform: uppercase;
     text-decoration: none;
-    border: none;
+    border: 1px solid white;
     padding: 10px 5px;
     font-size: 10px;
     font-weight: bold;
     background: transparent;
     position: relative;
     transition: all 0.3s;
-    background-color: #94e630;
+    background-color: #48DD22;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 50px;
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
 }
 
@@ -171,7 +172,7 @@ export default {
     top: 0;
     left: -50px;
     transform: skewX(50deg);
-    background-color: #ffffff68;
+    background-color: #00000081;
     z-index: 1;
     transition: all 1s;
 }

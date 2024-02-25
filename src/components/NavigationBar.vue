@@ -8,7 +8,7 @@
    
    
            <svg xmlns="http://www.w3.org/2000/svg" width="793" height="52" viewBox="0 0 793 100" fill="#88CB34" class="svgg">
-               <path d="M793 0L395 100L0 0L793 0Z" fill="#88CB34"/>
+               <path d="M793 0L395 100L0 0L793 0Z" fill="#90e92464"/>
            </svg>
    
            <nav class="navbar navbar-expand-lg">
@@ -83,17 +83,17 @@
    
        .svgg{
            position: absolute;
-           left: 23.9%;
+           left: 23.5%;
        }
    
        #logoBG{
-           transition: all .3s ease-in-out;
            transform: scale(133%);
+           opacity: 4;
        }
    
    
        #navText{
-           color: rgb(16, 91, 16);
+           color: rgb(60, 255, 0);
            font-weight: 800;
        }
    
@@ -111,15 +111,13 @@
        }
        
        #navBar{
-           /* background-color: rgb(180, 247, 242); */
-           background-color: rgb(255, 255, 255);
+           background-color: rgba(255, 255, 255, 0);
            width: 100%;
            position: fixed;
            top: 0;
            height: auto;
            width: 100%;
            z-index: 1;
-           /* mix-blend-mode: difference; */
        }
    
        @media (max-width: 950px) {
@@ -128,6 +126,9 @@
            }
            #OnShrink{
                display: none;
+           }
+           #navBar{
+            background-color: rgb(255, 255, 255);
            }
    
            /* issue no.1 */

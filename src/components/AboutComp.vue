@@ -26,7 +26,7 @@
 
    </div>
    
-  <div id="abtSec" class="container" data-aos="fade-up" data-aos-anchor-placement="center">
+  <div id="abtSec" class="container" data-aos="fade-right" data-aos-anchor-placement="center">
     
     
     <div class="col-lg-4 pt-5">
@@ -72,6 +72,27 @@
   </div>
 
   
+  
+  
+  
+  <div id="bottomSec" class="container">
+    <div class="container my-4">
+  
+      <h1 class="display-5 fw-bold text-black">More about us</h1>
+  
+      <dividerComp />
+  
+    </div>
+
+    
+    <AboutSecTwo />
+    
+  </div>
+  
+  
+  
+  
+  
   <div class="container my-4">
 
     <h1 class="display-5 fw-bold text-black">Insights</h1>
@@ -79,6 +100,7 @@
     <dividerComp />
 
   </div>
+
   <div id="carousel" class="container p-4 gap-4" data-aos="fade-up" data-aos-anchor-placement="center">
 
     <div class="d-flex row justify-content-center">
@@ -124,19 +146,19 @@
 
 
   </div>
-  
-    <!-- <div id="bottomSec"></div> -->
     
 </template>
 <script>
   import AOS from 'aos';
   import CarouselComp from './CarouselComp.vue';
   import dividerComp from './dividerComp.vue';
+  import AboutSecTwo from './AboutSecTwo.vue';
 
 export default {
   components: {
     CarouselComp,
-    dividerComp
+    dividerComp,
+    AboutSecTwo
   },
   mounted() {
     AOS.init();
@@ -145,7 +167,7 @@ export default {
 </script>
 <style scoped>
 
-  #about{
+  #about, #bottomSec{
     min-height: 100vh;
   }
 
@@ -212,7 +234,7 @@ export default {
   }
 
 
-  @media (max-width: 535px) {
+  @media (max-width: 995px) {
     #abtSec{
       display: flex;
       justify-content: center;
