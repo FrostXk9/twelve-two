@@ -93,54 +93,42 @@
   
   
   
-  <div class="container my-4">
 
-    <h1 class="display-5 fw-bold text-black">Insights</h1>
+  <div id="carousel" class="container my-3 p-4 gap-4 d-flex justify-content-center" data-aos="fade-up" data-aos-anchor-placement="center">
 
-    <dividerComp />
-
-  </div>
-
-  <div id="carousel" class="container p-4 gap-4" data-aos="fade-up" data-aos-anchor-placement="center">
-
-    <div class="d-flex row justify-content-center">
-
-      <div class="card mb-3">
-        <img src="" class="card-img-top">
+      <div class="card mb-3" id="card">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <div class="container my-2">
+
+            <h1 class="display-5 fw-bold text-black">Insights</h1>
+        
+            <dividerComp />
+        
+          </div>
+          <p class="card-text lead text-black-50">Insights that will be helpful when starting out with us!</p>
+          <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
+          <div class="d-flex justify-content-center" id="scroll">
+            <div class="d-flex row mt-2 w-100">
+              <div class="border border-2 rounded-3 p-1 mb-1">
+                <p>Financial health</p>
+                <a class="btn mt-2 p-2" id="btn" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">mg.co.za</a>
+              </div>
+              <div class="border border-2 rounded-3 p-1 mb-1">
+                <p>Heading text</p>
+                <a class="btn mt-2 p-2" id="btn" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">omny.fn</a>
+              </div>
+              <div class="border border-2 rounded-3 p-1 mb-1">
+                <p>Text heading</p>
+                <a class="btn mt-2 p-2" id="btn" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">Tatim</a>
+              </div>
+              <div class="border border-2 rounded-3 p-1 mb-1">
+                <p>Text heading</p>
+                <a class="btn mt-2 p-2" id="btn" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">Allan gray</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="card mb-3">
-        <img src="" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-
-      <div class="card mb-3">
-        <img src="" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-
-      <div class="card mb-3">
-        <img src="" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
     
   </div>
 
@@ -178,10 +166,17 @@ export default {
     border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.289), #00000075);
   }
 
+  #card{
+    background: rgba(255, 255, 255, 0.198);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.146);
+    box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.363);
+  }
+
 
   #carousel{
     display: flex !important;
-    overflow-x: scroll !important;
     max-width: 100% !important;
     background-image: url('https://cdn-images.imagevenue.com/21/a2/3e/ME17O37I_o.jpg');
     height: 450px;
@@ -231,6 +226,24 @@ export default {
   #scaleIcon:hover{
     transform: scale(170%);
     transition: all 0.1s ease-in-out;
+  }
+
+  #btn{
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  #btn:hover{
+   /* background: linear-gradient(to right, #48DD22 30%, rgb(1, 1, 81)); */
+    border: 1px solid rgb(9, 2, 82);
+    color: rgb(9, 2, 82);
+    font-weight: 600;
+  }
+
+  #scroll{
+    overflow: scroll;
+    height: 190px;
   }
 
 

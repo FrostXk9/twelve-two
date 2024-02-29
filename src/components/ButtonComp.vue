@@ -40,7 +40,7 @@ export default {
 }
 
 #btn:hover {
-    color: rgb(14, 0, 108);
+    color: rgb(255, 255, 255);
     /* mix-blend-mode: difference; */
 }
 
@@ -48,12 +48,11 @@ export default {
     content: '';
     position: absolute;
     height: 100%;
-    border: 1px solid rgb(2, 255, 10);
     width: 0%;
     top: 0;
     left: -50px;
     transform: skewX(50deg);
-    background-color: #00000081;
+    background-color: #0c049c81;
     z-index: 1;
     transition: all 0.6s;
 }
