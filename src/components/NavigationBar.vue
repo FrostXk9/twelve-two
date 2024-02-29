@@ -29,13 +29,13 @@
    
                            <li class="nav-item">
    
-                           <router-link to="/" class="nav-link" href="#" id="navText">Home</router-link>
+                           <a to="/" class="nav-link" href="#home" id="navText">Home</a>
    
                            </li>
                            
                            <li class="nav-item">
    
-                           <router-link to="/" class="nav-link" href="#" id="navText">About</router-link>
+                           <a to="/" class="nav-link" href="#about" id="navText">About</a>
    
                            </li>
    
@@ -48,13 +48,13 @@
    
                            <li class="nav-item">
    
-                               <router-link to="/" class="nav-link" href="#" id="navText">Events</router-link>
+                               <a to="/" class="nav-link" href="#" id="navText">Events</a>
    
                            </li>
    
                            <li class="nav-item">
    
-                           <router-link to="/" class="nav-link" href="#" id="navText">Contact</router-link>
+                           <a to="/" class="nav-link" href="#" id="navText">Contact</a>
    
                            </li>
    

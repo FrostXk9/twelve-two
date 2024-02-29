@@ -1,5 +1,4 @@
 <template>
-  <!-- data-aos="fade-up" data-aos-anchor-placement="center-center" -->
 
   <div class="position-relative overflow-hidden text-center" id="landingPage">
 
