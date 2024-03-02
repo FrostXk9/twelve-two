@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center featurette-divider my-4">
       <div class="divider"></div>
     </div>
 </template>
@@ -11,8 +11,8 @@ export default {
 
 
 .divider{
-    height: 5px;
-    width: 10%;
+    height: 1px;
+    width: 50%;
     background-color: rgb(10, 203, 61);
     display: flex;
     justify-content: center;

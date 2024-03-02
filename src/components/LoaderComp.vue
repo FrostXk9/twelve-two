@@ -19,14 +19,14 @@
 <script>
 export default {
     data(){
-        return{
-            loaded: false
-        }
+      return{
+          loaded: false
+      }
     },
     mounted(){
-        setTimeout(() => {
-            this.loaded = true;
-        }, 1200);
+      setTimeout(() => {
+          this.loaded = true;
+      }, 1200);
     }
     
 }

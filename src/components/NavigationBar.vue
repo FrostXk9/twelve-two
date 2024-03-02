@@ -29,13 +29,13 @@
    
                            <li class="nav-item">
    
-                           <a to="/" class="nav-link" href="#home" id="navText">Home</a>
+                           <a class="nav-link" href="#home" id="navText">Home</a>
    
                            </li>
                            
                            <li class="nav-item">
    
-                           <a to="/" class="nav-link" href="#about" id="navText">About</a>
+                           <a class="nav-link" href="#about" id="navText">About</a>
    
                            </li>
    
@@ -48,13 +48,13 @@
    
                            <li class="nav-item">
    
-                               <a to="/" class="nav-link" href="#" id="navText">Events</a>
+                               <a class="nav-link" href="#" id="navText">Events</a>
    
                            </li>
    
                            <li class="nav-item">
    
-                           <a to="/" class="nav-link" href="#" id="navText">Contact</a>
+                           <a class="nav-link" href="#contact" id="navText">Contact</a>
    
                            </li>
    

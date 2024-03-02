@@ -1,22 +1,22 @@
 <template>
     <a href="https://bookem.co.za/" id="btn" class="btn">
 
-        workshops
+        {{ btnContent="Workshops" }}
 
     </a>
 
     <a href="#about" id="btn" class="btn">
 
-        Know more <i class="fa-solid fa-arrow-right-long fa-sm" style="color: #ffffff;"></i>
+        {{ btnContent="know more" }} <i class="fa-solid fa-arrow-right-long fa-sm" style="color: #ffffff;"></i>
 
     </a>
 
 </template>
 
-<script>
-export default {
-    
-}
+<script setup>
+  defineProps({
+  btnContent: String,
+})
 </script>
 
 <style scoped>
@@ -42,6 +42,7 @@ export default {
 #btn:hover {
     color: rgb(255, 255, 255);
     /* mix-blend-mode: difference; */
+    z-index: 9999 !important;
 }
 
 #btn::after {
@@ -51,93 +52,89 @@ export default {
     width: 0%;
     top: 0;
     left: -50px;
-    transform: skewX(50deg);
-    background-color: #0c049c81;
+    transform: skewX(0deg);
+    background-color: #0004ff84;
     z-index: 1;
     transition: all 0.6s;
 }
 
 #btn:hover::after{
-    width: 180%;
+    width: 73%;
 }
-
-/* #btn::after {
-    width: 87%;
-} */
 
 @media (max-width: 800px) {
     #btn {
-    color: rgb(255, 255, 255);
-    width: 35%;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 10px 5px;
-    font-size: 10px;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 0.3s;
-    background-color: #48DD22;
-    overflow: hidden;
-    border-radius: 50px;
-    box-shadow: inset 10px 10px 10px 10px #2ba4152d;
-}
+        color: rgb(255, 255, 255);
+        width: 35%;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 10px 5px;
+        font-size: 10px;
+        font-weight: bold;
+        background: transparent;
+        position: relative;
+        transition: all 0.3s;
+        background-color: #48DD22;
+        overflow: hidden;
+        border-radius: 50px;
+        box-shadow: inset 10px 10px 10px 10px #2ba4152d;
+    }
 
-#btn::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: -50px;
-    transform: skewX(50deg);
-    background-color: #00000081;
-    z-index: 1;
-    transition: all 1s;
-}
+    #btn::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        top: 0;
+        left: -50px;
+        transform: skewX(50deg);
+        background-color: #00000081;
+        z-index: 1;
+        transition: all 1s;
+    }
 
-#btn:hover::after {
-    width: 250%;
-}
+    #btn:hover::after {
+        width: 250%;
+    }
 }
 
 
 @media (max-width: 400px) {
     #btn {
-    color: rgb(255, 255, 255);
-    width: 35%;
-    text-transform: uppercase;
-    text-decoration: none;
-    border: 1px solid white;
-    padding: 10px 5px;
-    font-size: 10px;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 0.3s;
-    background-color: #48DD22;
-    overflow: hidden;
-    border-radius: 50px;
-    box-shadow: inset 10px 10px 10px 10px #2ba4152d;
-}
+        color: rgb(255, 255, 255);
+        width: 35%;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 10px 5px;
+        font-size: 10px;
+        font-weight: bold;
+        background: transparent;
+        position: relative;
+        transition: all 0.3s;
+        background-color: #48DD22;
+        overflow: hidden;
+        border-radius: 50px;
+        box-shadow: inset 10px 10px 10px 10px #2ba4152d;
+    }
 
-#btn::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    top: 0;
-    left: -50px;
-    transform: skewX(50deg);
-    background-color: #00000081;
-    z-index: 1;
-    transition: all 1s;
-}
+    #btn::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        top: 0;
+        left: -50px;
+        transform: skewX(50deg);
+        background-color: #00000081;
+        z-index: 1;
+        transition: all 1s;
+    }
 
-#btn:hover::after {
-    width: 250%;
-}
+    #btn:hover::after {
+        width: 250%;
+    }
 
 }
 

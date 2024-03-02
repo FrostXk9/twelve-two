@@ -75,7 +75,7 @@
   
   
   
-  <div id="bottomSec" class="container">
+  <div id="moreAbout" class="container">
     <div class="container my-4">
   
       <h1 class="display-5 fw-bold text-black">More about us</h1>
@@ -94,7 +94,7 @@
   
   
 
-  <div id="carousel" class="container my-3 p-4 gap-4 d-flex justify-content-center" data-aos="fade-up" data-aos-anchor-placement="center">
+  <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center" data-aos="fade" data-aos-anchor-placement="center">
 
       <div class="card mb-3" id="card">
         <div class="card-body">
@@ -106,24 +106,31 @@
         
           </div>
           <p class="card-text lead text-black-50">Insights that will be helpful when starting out with us!</p>
-          <!-- <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> -->
           <div class="d-flex justify-content-center" id="scroll">
             <div class="d-flex row mt-2 w-100">
-              <div class="border border-2 rounded-3 p-1 mb-1">
-                <p>Financial health</p>
-                <a class="btn mt-2 p-2" id="btn" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">mg.co.za</a>
+              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
+                <p class="text-white fw-bold fs-3">Financial health</p>
+                <a class="" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">
+                  <GlobalBtnComp textContent="Go to link"/>
+                </a>
               </div>
-              <div class="border border-2 rounded-3 p-1 mb-1">
-                <p>Heading text</p>
-                <a class="btn mt-2 p-2" id="btn" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">omny.fn</a>
+              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
+                <p class="text-white fw-bold fs-3">Money history</p>
+                <a class="" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">
+                  <GlobalBtnComp textContent="Go to link"/>
+                </a>
               </div>
-              <div class="border border-2 rounded-3 p-1 mb-1">
-                <p>Text heading</p>
-                <a class="btn mt-2 p-2" id="btn" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">Tatim</a>
+              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
+                <p class="text-white fw-bold fs-3">For entrepreneurs</p>
+                <a class="" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">
+                  <GlobalBtnComp textContent="Go to link"/>
+                </a>
               </div>
-              <div class="border border-2 rounded-3 p-1 mb-1">
-                <p>Text heading</p>
-                <a class="btn mt-2 p-2" id="btn" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">Allan gray</a>
+              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
+                <p class="text-white fw-bold fs-3">Time is money</p>
+                <a class="" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">
+                  <GlobalBtnComp textContent="Go to link"/>
+                </a>
               </div>
             </div>
           </div>
@@ -141,12 +148,16 @@
   import CarouselComp from './CarouselComp.vue';
   import dividerComp from './dividerComp.vue';
   import AboutSecTwo from './AboutSecTwo.vue';
+  import GlobalBtnComp from './GlobalBtnComp.vue';
+  import secondaryDivider from './secondaryDivider.vue';
 
 export default {
   components: {
     CarouselComp,
     dividerComp,
-    AboutSecTwo
+    AboutSecTwo,
+    GlobalBtnComp,
+    secondaryDivider
   },
   mounted() {
     AOS.init();
@@ -155,7 +166,7 @@ export default {
 </script>
 <style scoped>
 
-  #about, #bottomSec{
+  #about, #moreAbout{
     min-height: 100vh;
   }
 
@@ -172,6 +183,12 @@ export default {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(0, 0, 0, 0.146);
     box-shadow: 7px 7px 15px 1px rgba(0, 0, 0, 0.363);
+  }
+
+  #cardsm{
+    background: linear-gradient(to left,rgb(103, 103, 103), rgb(123, 123, 123));
+    border: 1px solid rgb(0, 0, 0) !important;
+    margin-bottom: 18px !important;
   }
 
 

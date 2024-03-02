@@ -2,6 +2,7 @@
   <NavigationBar />
   <LoaderComp />
   <router-view/>
+  <FooterComp />
 </template>
 
 <style>
@@ -15,12 +16,14 @@
 </style>
 <script>
 import NavigationBar from './components/NavigationBar.vue';
-import LoaderComp from './components/LoaderComp.vue'
+import LoaderComp from './components/LoaderComp.vue';
+import FooterComp from './components/FooterComp.vue';
 
 export default {
   components: {
     NavigationBar,
-    LoaderComp
+    LoaderComp,
+    FooterComp
   }
 }
 </script>
