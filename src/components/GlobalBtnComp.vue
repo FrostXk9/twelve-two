@@ -5,8 +5,8 @@
 </template>
 <script setup>
   defineProps({
-  textContent: String,
-})
+   textContent: String,
+  })
 </script>
 <style scoped>
 

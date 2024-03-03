@@ -56,6 +56,7 @@
       <p>Personalized guidance on financial management, savings, investments, and achieving lasting financial freedom.Empowering individuals to focus on their life's purpose with financial confidence.</p>
 
     </div>
+    
     <div class="col-lg-4 pt-5">
 
       <div id="boxed" class="bd-placeholder-img rounded-circle">
@@ -76,6 +77,8 @@
   
   
   <div id="moreAbout" class="container">
+    
+
     <div class="container my-4">
   
       <h1 class="display-5 fw-bold text-black">More about us</h1>
@@ -97,7 +100,9 @@
   <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center" data-aos="fade" data-aos-anchor-placement="center">
 
       <div class="card mb-3" id="card">
+
         <div class="card-body">
+
           <div class="container my-2">
 
             <h1 class="display-5 fw-bold text-black">Insights</h1>
@@ -105,36 +110,67 @@
             <dividerComp />
         
           </div>
+
           <p class="card-text lead text-black-50">Insights that will be helpful when starting out with us!</p>
+
           <div class="d-flex justify-content-center" id="scroll">
+
             <div class="d-flex row mt-2 w-100">
+
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-                <p class="text-white fw-bold fs-3">Financial health</p>
+
+                <p class="text-white-50 fw-bold fs-3">South Africans <br> broke and stressed</p>
+
                 <a class="" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">
+
                   <GlobalBtnComp textContent="Go to link"/>
+
                 </a>
+
               </div>
+
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-                <p class="text-white fw-bold fs-3">Money history</p>
+
+                <p class="text-white-50 fw-bold fs-3">Rachel Kolisi <br>on managing money</p>
+
+
                 <a class="" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">
+
                   <GlobalBtnComp textContent="Go to link"/>
+
                 </a>
               </div>
+
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-                <p class="text-white fw-bold fs-3">For entrepreneurs</p>
+
+                <p class="text-white-50 fw-bold fs-3">Record keeping <br>for entrepreneurs</p>
+
                 <a class="" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">
+
                   <GlobalBtnComp textContent="Go to link"/>
+
                 </a>
+
               </div>
+
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-                <p class="text-white fw-bold fs-3">Time is money</p>
+
+                <p class="text-white-50 fw-bold fs-3">Time- <br> the secret to long-term wealth creation</p>
+
                 <a class="" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">
+
                   <GlobalBtnComp textContent="Go to link"/>
+
                 </a>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
     
   </div>
@@ -186,7 +222,7 @@ export default {
   }
 
   #cardsm{
-    background: linear-gradient(to left,rgb(103, 103, 103), rgb(123, 123, 123));
+    background: linear-gradient(to left,rgb(0, 0, 0), rgb(34, 34, 34));
     border: 1px solid rgb(0, 0, 0) !important;
     margin-bottom: 18px !important;
   }

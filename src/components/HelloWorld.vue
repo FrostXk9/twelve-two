@@ -63,23 +63,23 @@
         
       </div>
 
+      <div id="posBtmRight">
+        <offcanvasComp />
+      </div>
+
 
       
     </div>      
   </template>
   
   <script>
-  
-  import AOS from 'aos';
   import ButtonComp from './ButtonComp.vue';
+  import offcanvasComp from './offcanvasComp.vue'
   
   export default {
     components : {
-      ButtonComp
-    },
-    
-    mounted(){
-      AOS.init()
+      ButtonComp,
+      offcanvasComp
     }
   }
   
@@ -113,6 +113,14 @@
   
   #btn{
     font-weight: 600;
+  }
+
+  #posBtmRight{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    margin-bottom: 10px;
+    margin-right: 10px;
   }
 
 

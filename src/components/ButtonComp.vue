@@ -14,9 +14,9 @@
 </template>
 
 <script setup>
-  defineProps({
-  btnContent: String,
-})
+    defineProps({
+     btnContent: String,
+    })
 </script>
 
 <style scoped>
@@ -41,8 +41,6 @@
 
 #btn:hover {
     color: rgb(255, 255, 255);
-    /* mix-blend-mode: difference; */
-    z-index: 9999 !important;
 }
 
 #btn::after {

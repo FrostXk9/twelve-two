@@ -11,14 +11,26 @@
               id="videoIsPlayable123"
             >
             </video> -->
-            <h1 class="display-5 fw-bold lh-1 text-white mb-2" id="position-234-00">Stay in touch with us!</h1>
+            <h1 class="display-5 fw-bold lh-1 text-white mb-2" id="position-234-00">Keep in touch with us!</h1>
+
             <div class="mb-4">
               <dividerComp />
             </div>
+
             <div class="container mt-4 d-flex justify-content-evenly fw-bold text-white">
-              <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;" id="scaleIcon"></i>
-              <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;" id="scaleIcon"></i>
-              <i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;" id="scaleIcon"></i>
+
+              <a href="" id="scaleIcon">
+                <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+              </a>
+
+              <a href="" id="scaleIcon">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+              </a>
+
+              <a href="" id="scaleIcon">
+                <i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i>
+              </a>
+
             </div>
 
             <div class="container mt-3 p-5 d-flex justify-content-evenly fw-bold text-white">
@@ -57,8 +69,11 @@
               <secondaryDivider />
 
             </form>
+
           </div>
+
         </div>
+        
       </div>
 
 
@@ -94,6 +109,11 @@ export default {
   height: 460px;
   width: 100%;
 } 
+
+#scaleIcon:hover{
+    transform: scale(120%);
+    transition: all 0.1s ease-in-out;
+  }
 
 @media (max-width: 490px) {
   #scaleIcon{
