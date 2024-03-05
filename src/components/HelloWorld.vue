@@ -87,7 +87,6 @@
   
   <style scoped>
   #landingPage{
-    /* overflow: hidden; */
     background-image: url("https://cdn-images.imagevenue.com/81/8f/87/ME17OVUR_o.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,11 +99,6 @@
   }
   
   #fontify{
-    /* background-color: rgba(255, 255, 255, 0.266);
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
-    border-radius: 30px;
-    box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.241); */
     background: linear-gradient(to right,#48DD22, rgb(55, 255, 0));
     -webkit-background-clip: text;
     background-clip: text;
@@ -116,7 +110,7 @@
   }
 
   #posBtmRight{
-    position: fixed;
+    position: absolute;
     right: 0%;
     bottom: 0%;
     margin-bottom: 10px;

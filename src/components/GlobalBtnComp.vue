@@ -1,6 +1,6 @@
 <template>
     <button>
-       {{ textContent }}
+      {{ textContent }}
     </button>
 </template>
 <script setup>

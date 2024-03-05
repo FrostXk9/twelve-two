@@ -6,18 +6,24 @@
     <h5 class="offcanvas-title" id="offcanvasBottomLabel">Our free resources</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body small d-flex justify-content-evenly">
-   <div id="cd">
-    <offcanvasCard cardContent="Hlloe"/>
-    <!-- https://academy.dfreefoundation.org/ -->
+  <div class="offcanvas-body container" id="cardsBody">
+
+   <div id="cd" class="py-3 mb-3">
+    <offcanvasCard cardContent="Get out of debt - Through our partnership with the dfree® Global Foundation, you get financial freedom lessons at your fingertips from virtually anywhere through the dfree® online Academy "/>
+    <a class="btn bg-black text-white" href="https://academy.dfreefoundation.org/">Click here</a>
    </div>
-  <div id="cd">
-    <offcanvasCard cardContent="Hlloe"/>
-      <!-- https://www.mycreditcheck.co.za/ -->
+
+  <div id="cd" class="py-3 mb-3">
+    <offcanvasCard cardContent="Access your credit report - Experian provides free credit reports and free credit scores on My Credit Check"/>
+      <a class="btn bg-black text-white" href="https://www.mycreditcheck.co.za/">Click here</a>
   </div>
-  <div id="cd">
-    <offcanvasCard cardContent="Hlloe"/>
-      <!-- https://www.stokfella.com/ -->
+
+  <div id="cd" class="py-3 mb-3">
+
+    <offcanvasCard cardContent="Belong to a community savings club? Check out Stokfella for an easy tech savvy way of managing your group affairs."/>
+      
+      <a class="btn bg-black text-white" href="https://www.stokfella.com/">Click here</a>
+
   </div>
   </div>
 </div>
@@ -31,12 +37,13 @@ export default {
     }
 }
 </script>
-<style>
+<style scoped>
     #offcanvasBottom{
       background-color: rgba(255, 255, 255, 0.291);
       -webkit-backdrop-filter: blur(20px);
       backdrop-filter: blur(20px);
       color: white;
+      z-index: 9999 !important;
     }
 
     #button{
@@ -49,5 +56,20 @@ export default {
     }
     #cd{
       width: 100%;
+      border: 1px solid black;
+    }
+
+    #cardsBody{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 550px) {
+      #cardsBody{
+        display: flex;
+        justify-content: center;
+
+      }
     }
 </style>

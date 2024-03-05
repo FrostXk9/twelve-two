@@ -16,19 +16,26 @@
     <TimelineComp />
 
   </div> -->
+  <div id="testimonials">
+    
+    <testimonialCardVue />
+    
+  </div>
 
   <div id="contact">
 
     <ContactComp />
 
   </div>
+
 </template>
 
 <script>
 import HelloWorld from '../components/HelloWorld.vue';
 import AboutComp from '../components/AboutComp.vue';
 import TimelineComp from '../components/TimelineComp.vue';
-import ContactComp from '../components/ContactComp.vue';;
+import ContactComp from '../components/ContactComp.vue';
+import testimonialCardVue from '../components/testimonialCard.vue';
 
 export default {
   name: 'HomeView',
@@ -37,6 +44,7 @@ export default {
     AboutComp,
     TimelineComp,
     ContactComp,
+    testimonialCardVue
   }
 }
 </script>

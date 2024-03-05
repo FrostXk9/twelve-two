@@ -48,7 +48,7 @@
    
                            <li class="nav-item">
    
-                               <a class="nav-link" href="#" id="navText">Events</a>
+                               <a class="nav-link" href="#testimonials" id="navText">Clients</a>
    
                            </li>
    
@@ -83,7 +83,7 @@
    
        .svgg{
            position: absolute;
-           left: 23.5%;
+           left: 23.1%;
        }
    
        #logoBG{

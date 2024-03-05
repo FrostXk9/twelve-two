@@ -57,7 +57,7 @@
 }
 
 #btn:hover::after{
-    width: 73%;
+    width: 180%;
 }
 
 @media (max-width: 800px) {

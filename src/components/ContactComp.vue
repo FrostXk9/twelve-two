@@ -11,13 +11,13 @@
               id="videoIsPlayable123"
             >
             </video> -->
-            <h1 class="display-5 fw-bold lh-1 text-white mb-2" id="position-234-00">Keep in touch with us!</h1>
+            <h1 class="display-5 fw-bold lh-1 text-white mb-2" id="position-234-00" data-aos="fade-right" data-aos-anchor-placement="center">Keep in touch with us!</h1>
 
             <div class="mb-4">
               <dividerComp />
             </div>
 
-            <div class="container mt-4 d-flex justify-content-evenly fw-bold text-white">
+            <div class="container mt-4 d-flex justify-content-evenly fw-bold text-white" data-aos="fade-right" data-aos-anchor-placement="center">
 
               <a href="" id="scaleIcon">
                 <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
@@ -33,7 +33,7 @@
 
             </div>
 
-            <div class="container mt-3 p-5 d-flex justify-content-evenly fw-bold text-white">
+            <div class="container mt-3 p-5 d-flex justify-content-evenly fw-bold text-white" data-aos="fade-right" data-aos-anchor-placement="center">
               <i class="fa-solid fa-location-dot fa-2xl" style="color: #ffffff;" id="scaleIcon"></i>
               5 Alice Lane, Sandton, 2196
             </div>

@@ -3,11 +3,6 @@
 
         {{ cardContent }}
 
-        <div>
-            
-            <button>{{ cardhref }}</button>
-
-        </div>
     </div>
 </template>
 <script setup>
@@ -18,10 +13,9 @@ defineProps({
 </script>
 <style>
     #card{
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        border: 1px solid black;
     }
 </style>

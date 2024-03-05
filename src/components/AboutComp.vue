@@ -9,7 +9,7 @@
 
         <dividerComp />
 
-        <p class="col-md-12 fs-4 mt-4 text-white container" data-aos="fade-up" data-aos-anchor-placement="center">
+        <p class="col-md-12 fs-4 mt-4 text-white container" data-aos="fade-up" data-aos-anchor-placement="center" id="mediaQtxt">
           With a combined experience of over two decades in investment management industry, our team collaborates closely with top-tier experts in legal, tax ,accounting, and financial planning.This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.
         </p>
         <p class="text-white-50"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @Twelve Two affirmation</p>
@@ -119,7 +119,7 @@
 
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
 
-                <p class="text-white-50 fw-bold fs-3">South Africans <br> broke and stressed</p>
+                <p class="text-white fw-bold fs-3">South Africans <br> broke and stressed</p>
 
                 <a class="" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">
 
@@ -131,7 +131,7 @@
 
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
 
-                <p class="text-white-50 fw-bold fs-3">Rachel Kolisi <br>on managing money</p>
+                <p class="text-white fw-bold fs-3">Rachel Kolisi <br>on managing money</p>
 
 
                 <a class="" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">
@@ -143,7 +143,7 @@
 
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
 
-                <p class="text-white-50 fw-bold fs-3">Record keeping <br>for entrepreneurs</p>
+                <p class="text-white fw-bold fs-3">Record keeping <br>for entrepreneurs</p>
 
                 <a class="" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">
 
@@ -155,7 +155,7 @@
 
               <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
 
-                <p class="text-white-50 fw-bold fs-3">Time- <br> the secret to long-term wealth creation</p>
+                <p class="text-white fw-bold fs-3">Time- <br> the secret to long-term wealth creation</p>
 
                 <a class="" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">
 
@@ -305,6 +305,36 @@ export default {
       display: flex;
       justify-content: center;
       flex-direction: column;
+    }
+  }
+  @media (max-width: 445px) {
+    #abtSec{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #carousel{
+      display: flex !important;
+      max-width: 100% !important;
+      background-image: url('https://cdn-images.imagevenue.com/21/a2/3e/ME17O37I_o.jpg');
+      height: 550px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #scroll{
+      overflow: scroll;
+      height: 200px;
+    }
+    #card{
+      color: white !important;
+      width: 100%;
+    }
+
+    #mediaQtxt{
+      font-size: 16px !important;
+      width: 100%;
+      text-align: center;
     }
   }
   
