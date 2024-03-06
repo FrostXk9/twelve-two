@@ -1,4 +1,4 @@
-<template lang="">
+<template>
     <footer class="bg-body-tertiary">
         <div class="container py-4 py-md-5 px-4 px-md-3 text-black">
             <div class="row">
@@ -8,8 +8,8 @@
                         <span class="fs-5 text-black border-bottom">TwelveTwo</span>
                     </a>
                     <ul class="list-unstyled small">
-                        <li class="mb-2 text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="mb-2 text-black">All right reserved &copy; | @TwelveTwoGlobal</li>
+                        <li class="mb-2 text-black"></li>
+                        <li class="mb-2 text-black">All right reserved &copy; | @TwelveTwoGlobal {{this.year()}}</li>
                     </ul>
                 </div>
             </div>
@@ -17,15 +17,20 @@
     </footer>
 </template>
 <script>
-import AOS from 'aos';
 
 export default {
+    methods : {
+        year : function () {
+            let date = new Date().getFullYear()
+            return date
+        }
+    },
     mounted(){
-        AOS.init();
+        this.year()
     }
 }
 </script>
-<style>
+<style scoped>
     #logo{
         background-color: #0d0d43;
         border-radius: 50%;

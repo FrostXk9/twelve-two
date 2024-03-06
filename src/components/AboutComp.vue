@@ -12,7 +12,7 @@
         <p class="col-md-12 fs-4 mt-4 text-white container" data-aos="fade-up" data-aos-anchor-placement="center" id="mediaQtxt">
           With a combined experience of over two decades in investment management industry, our team collaborates closely with top-tier experts in legal, tax ,accounting, and financial planning.This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.
         </p>
-        <p class="text-white-50"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @Twelve Two affirmation</p>
+        <p class="text-white" id="mediaQ"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @Twelve Two affirmation</p>
       </div>
 
    </div>
@@ -210,7 +210,7 @@ export default {
     background-image: url('https://cdn-images.imagevenue.com/69/dc/36/ME17NVGW_o.png');
     background-repeat: no-repeat;
     background-size: cover;
-    border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.289), #00000075);
+    border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.554), #0000008b);
   }
 
   #card{
@@ -232,6 +232,7 @@ export default {
     display: flex !important;
     max-width: 100% !important;
     background-image: url('https://cdn-images.imagevenue.com/21/a2/3e/ME17O37I_o.jpg');
+    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.243), rgba(0, 0, 0, 0.117));
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,57 +332,17 @@ export default {
       width: 100%;
     }
 
+    #mediaQ{
+      font-size:0.7em;
+    }
+
     #mediaQtxt{
-      font-size: 16px !important;
+      font-size: 1em !important;
       width: 100%;
       text-align: center;
+      overflow: scroll;
+      max-height: 145px;
     }
   }
   
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <h2 id="txt" class="pt-2">About Us</h2>
-  
-    <span class="ul" data-aos="fade-right" data-aos-anchor-placement="center" ></span>
-    <div class="container my-5">
-
-      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-
-        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-
-          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Grow with Twelve Two</h1>
-
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore commodi nostrum consequatur vel fugiat voluptates nihil. Placeat odio maiores porro ipsam nemo nam unde, corporis debitis reiciendis veniam, facilis repellendus.</p>
-
-          <div class="d-grid gap-2 d-md-flex justify-content-md-center mb-4 mb-lg-3">
-
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4 me-md-2 fw-bold">Default</button>
-            
-          </div>
-
-
-        </div>
-
-
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow">
-          <div id="vid">
-            <video class="border border-black shadow" autoplay muted loop src="../assets/pexels_videos_1448735 (2160p).mp4" type="video/mp4" id="vd" width="720">
-
-            </video>
-          </div>
-        </div>
-      </div>
-    </div> -->

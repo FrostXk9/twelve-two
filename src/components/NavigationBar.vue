@@ -8,7 +8,7 @@
    
    
            <svg xmlns="http://www.w3.org/2000/svg" width="793" height="52" viewBox="0 0 793 100" fill="#88CB34" class="svgg">
-               <path d="M793 0L395 100L0 0L793 0Z" fill="#90e92464"/>
+               <path d="M793 0L395 100L0 0L793 0Z" fill="rgb(0, 216, 0)"/>
            </svg>
    
            <nav class="navbar navbar-expand-lg">
@@ -83,7 +83,7 @@
    
        .svgg{
            position: absolute;
-           left: 23.1%;
+           left: 23.45%;
        }
    
        #logoBG{
@@ -93,14 +93,14 @@
    
    
        #navText{
-           color: rgb(60, 255, 0);
+           color: rgb(17, 6, 157);
            font-weight: 800;
        }
    
        #OnExpand{
            display: none;
            color: #0d0d43;
-       }
+        }
        
        #OnExpand::first-letter{
            color: rgb(0, 216, 0);
@@ -111,7 +111,7 @@
        }
        
        #navBar{
-           background-color: rgba(255, 255, 255, 0);
+           background-color: rgb(255, 255, 255);
            width: 100%;
            position: fixed;
            top: 0;

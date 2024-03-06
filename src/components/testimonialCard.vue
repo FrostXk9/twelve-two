@@ -57,7 +57,7 @@ export default {
     align-items: center;
     flex-wrap: wrap;
     min-height: 100vh;
-    border-image: fill 0 linear-gradient(rgba(0, 0, 1, 0.125), rgba(8, 8, 8, 0.725));
+    border-image: fill 0 linear-gradient(rgba(0, 0, 1, 0.498), rgba(8, 8, 8, 0.725));
     overflow: hidden;
     background-image: url('https://cdn-images.imagevenue.com/65/66/25/ME17QI7W_o.jpg');
     background-size: cover;
@@ -67,7 +67,7 @@ export default {
 .testimonial {
     width: 500px;
     max-width: 100%;
-    background: #2ee920;
+    background: #0a9300;
     padding: 4em 3em;
     display: flex;
     align-items: flex-end;
@@ -81,7 +81,7 @@ export default {
     font-size: 3em;
     width: 40px;
     height: 40px;
-    background: rgb(0, 9, 128);
+    background: rgb(1, 7, 88);
     color: #fff;
     text-align: center;
     line-height: 1.25;
@@ -101,6 +101,7 @@ p {
     width: 72%;
     display: inline-block;
     font-weight: bold;
+    color: rgb(232, 232, 232);
 }
 
 .source {
@@ -116,6 +117,7 @@ p {
     position: relative;
     margin-left: 1rem;
     text-align: right;
+    color: rgb(232, 232, 232);
 }
 
 .source span:before {
@@ -180,8 +182,10 @@ p {
     .testimonial {
         width: 500px;
         max-width: 100%;
-        background: #2ee920;
+        background: #0a9300;
+        text-align: start;
         padding: 3em 1em;
+        font-size: 0.9em !important;
         display: flex;
         align-items: flex-end;
         position: relative;
@@ -195,8 +199,10 @@ p {
     .testimonial {
         width: 500px;
         max-width: 100%;
-        background: #2ee920;
-        padding: 1em 1em;
+        background: #0a9300;
+        padding: 0.5em 0.5em;
+        font-size: 0.9em !important;
+        margin: 6px;
         display: flex;
         align-items: flex-end;
         position: relative;
@@ -211,9 +217,10 @@ p {
     .testimonial {
         width: 500px;
         max-width: 100%;
-        background: #2ee920;
+        background: #0a9300;
         padding: 0.5em 0.5em;
         margin: 10px;
+        font-size: 0.9em !important;
         display: flex;
         align-items: flex-end;
         position: relative;
@@ -223,14 +230,37 @@ p {
     .quote {
         display: none;
     }
+    .image img {
+        border: 2px solid #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .source span {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1em;
+        position: relative;
+        margin-left: 1rem;
+        text-align: right;
+        color: rgb(232, 232, 232);
+    }
+
+    .image {
+        transform: rotate(-5deg);
+        position: absolute;
+        top: 0.5em;
+        right: 0.6em;
+    }
 }
 @media (max-width:325px) {
     .testimonial {
         width: 500px;
         max-width: 100%;
-        background: #2ee920;
-        padding: 0.5em 0.5em;
+        background: #0a9300;
+        padding: 1em 1em;
         margin: 10px;
+        font-size: 1em;
         display: flex;
         align-items: flex-end;
         position: relative;
@@ -238,6 +268,21 @@ p {
     }
     .quote {
         display: none;
+    }
+    .source span {
+        display: inline-block;
+        font-weight: bold;
+        font-size: 0.9em;
+        position: relative;
+        margin-left: 1rem;
+        text-align: right;
+        color: rgb(232, 232, 232);
+    }
+    .image {
+        transform: rotate(-5deg);
+        position: absolute;
+        top: 0.5em;
+        right: 0.6em;
     }
 }
     
