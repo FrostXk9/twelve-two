@@ -1,6 +1,6 @@
 <template>
 
-  <div class="position-relative overflow-hidden text-center" id="landingPage">
+  <div class="position-relative overflow-hidden text-center" id="landingPage" loading="lazy">
 
     <div class="col-md-12 p-lg-2 mx-auto container" id="childpg34">
       
