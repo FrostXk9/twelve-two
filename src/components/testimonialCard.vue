@@ -113,7 +113,7 @@ p {
 .source span {
     display: inline-block;
     font-weight: bold;
-    font-size: 1.15em;
+    font-size: 14px;
     position: relative;
     margin-left: 1rem;
     text-align: right;
