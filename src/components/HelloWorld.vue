@@ -55,7 +55,7 @@
             Get to know us more
           </div>
           <a href="#moreAbout">
-            <img src="https://cdn-images.imagevenue.com/1c/cd/f0/ME17OW6E_o.png" alt="Double Down.png">
+            <img src="https://cdn-images.imagevenue.com/1c/cd/f0/ME17OW6E_o.png" alt="Double Down.png" loading="lazy">
           </a>
         </div>
 
@@ -87,7 +87,7 @@
   
   <style scoped>
   #landingPage{
-    background-image: url("https://cdn-images.imagevenue.com/81/8f/87/ME17OVUR_o.jpg");
+    background-image: url("../assets/pexels-cottonbro-studio-4101143.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -266,7 +266,13 @@
   }
   
   /* Media queries */
-  
+  @media (max-width: 780px) {
+    #icw221{
+     display: none;
+    }
+  }
+
+
   @media (max-width: 550px) {
     #iconBox{
       display: flex;

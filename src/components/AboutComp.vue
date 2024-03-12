@@ -97,7 +97,7 @@
   
   
 
-  <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center" data-aos="fade" data-aos-anchor-placement="center">
+  <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center">
 
       <div class="card mb-3" id="card">
 
@@ -121,7 +121,7 @@
 
                 <p class="text-white fw-bold fs-3">South Africans <br> broke and stressed</p>
 
-                <a class="" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">
+                <a href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">
 
                   <GlobalBtnComp textContent="Go to link"/>
 
@@ -134,7 +134,7 @@
                 <p class="text-white fw-bold fs-3">Rachel Kolisi <br>on managing money</p>
 
 
-                <a class="" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">
+                <a href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">
 
                   <GlobalBtnComp textContent="Go to link"/>
 
@@ -145,7 +145,7 @@
 
                 <p class="text-white fw-bold fs-3">Record keeping <br>for entrepreneurs</p>
 
-                <a class="" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">
+                <a href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">
 
                   <GlobalBtnComp textContent="Go to link"/>
 
@@ -157,7 +157,7 @@
 
                 <p class="text-white fw-bold fs-3">Time- <br> the secret to long-term wealth creation</p>
 
-                <a class="" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">
+                <a href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">
 
                   <GlobalBtnComp textContent="Go to link"/>
 
@@ -210,7 +210,8 @@ export default {
     background-image: url('https://cdn-images.imagevenue.com/69/dc/36/ME17NVGW_o.png');
     background-repeat: no-repeat;
     background-size: cover;
-    border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.554), #0000008b);
+    background-position: center;
+    border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.616), #000000bd);
   }
 
   #card{
@@ -236,6 +237,7 @@ export default {
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
   
   #txt{

@@ -5,7 +5,7 @@
         <p class="lead text-start text-start">Twelve two is dedicated to empowering individuals on their financial journey through coaching.Our mission is to demystify personal finance, fostering confidence and success. Guided by a commitment to holistic financial wellness, we provide tailored coaching services, equipping clients with practical tools and strategies for spending plans,investing,and debt elimination.At Twelve Two, we belive in a collaborative approach, working alongside you to transform financial goals into achievable realities.Let us be your partner in navigating the path to financial well-being</p>
       </div>
       <div class="col-md-5" id="container">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src="https://cdn-images.imagevenue.com/77/9c/79/ME17OWCE_o.jpg" alt="@twelve_TwoAffirmation" role="img" id="img"/>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src="https://cdn-images.imagevenue.com/77/9c/79/ME17OWCE_o.jpg" alt="@twelve_TwoAffirmation" role="img" id="img" loading="lazy"/>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
         </p>
       </div>
       <div class="col-md-5" id="container">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src="https://cdn-images.imagevenue.com/fd/f2/b7/ME17OWEC_o.jpg" alt="@twelveTwo_Affirmation" role="img" id="img"/>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src="https://cdn-images.imagevenue.com/fd/f2/b7/ME17OWEC_o.jpg" alt="@twelveTwo_Affirmation" role="img" id="img" loading="lazy"/>
       </div>
     </div>
 
@@ -44,7 +44,7 @@
         </p>
       </div>
       <div class="col-md-5" id="container">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src="https://cdn-images.imagevenue.com/2b/ac/f2/ME17OWE5_o.jpg" alt="@twelveTwoAffirmation" role="img" id="img"/>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="350" src="https://cdn-images.imagevenue.com/2b/ac/f2/ME17OWE5_o.jpg" alt="@twelveTwoAffirmation" role="img" id="img" loading="lazy"/>
       </div>
     </div>
 </template>
