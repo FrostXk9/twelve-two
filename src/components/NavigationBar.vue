@@ -93,7 +93,7 @@
    
    
        #navText{
-           color: rgb(17, 6, 157);
+           color: rgb(6, 119, 27);
            font-weight: 800;
        }
    

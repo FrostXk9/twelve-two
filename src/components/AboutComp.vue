@@ -10,76 +10,37 @@
         <dividerComp />
 
         <p class="col-md-12 fs-4 mt-4 text-white container" data-aos="fade-up" data-aos-anchor-placement="center" id="mediaQtxt">
-          With a combined experience of over two decades in investment management industry, our team collaborates closely with top-tier experts in legal, tax ,accounting, and financial planning.This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.
+          Financial shame, financial distress and financial illiteracy are common in many  South African households, often without proper assistance. Twelve Two is here to fight for good financial health for all South Africans.  
+          <br>
+          <br>
+          <br>
+
+          Our consulting and coaching services are personalized to your specific financial situation and goals. Whether you're starting your journey to financial wellness or aiming to enhance your finances, we're here to support you. Our skilled team will collaborate with you to develop a tailored plan that suits your lifestyle and aspirations. From crafting a practical spending plan to devising strategies for debt reduction and intelligent investing, we cover all aspects. And our assistance doesn't end there. We believe in empowering our clients with the knowledge and tools necessary for long-term success. That's why we offer ongoing guidance and support every step of the way, helping you build confidence and achieve lasting financial prosperity.
+
+          <br>
+          <br>
+          <br>
+
+          We provide unbiased information, objective curriculum, and coaching. With over two decades of combined experience in the investment management industry, our team works closely with top-tier experts in legal, tax, accounting, and financial planning. This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.
+
+
         </p>
-        <p class="text-white" id="mediaQ"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @Twelve Two affirmation</p>
+        <p class="text-white" id="mediaQ"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @<span class="T">T</span>welve <span class="T">T</span>wo affirmation</p>
       </div>
 
    </div>
 
 
-   <div class="container">
-
-    <h1 class="display-5 fw-bold text-black">Our services</h1>
-
-    <dividerComp />
-
-   </div>
    
-  <div id="abtSec" class="container" data-aos="fade-right" data-aos-anchor-placement="center">
-    
-    
-    <div class="col-lg-4 pt-5">
-
-      <div id="boxed" class="bd-placeholder-img rounded-circle">
-
-        <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
-
-      </div>
-
-      <h2 class="fw-bold">Wealthy mind seminars</h2>
-
-      <p>Practical strategies for effective financial management and integrational wealth building.</p>
-
-    </div>
-
-    <div class="col-lg-4 pt-5">
-  
-      <div id="boxed" class="bd-placeholder-img rounded-circle">
-
-        <i class="fa-solid fa-chalkboard-user fa-2xl" style="color: #000000;" id="scaleIcon"></i>
-                    
-      </div>
-                
-      <h2 class="fw-bold">Individual Coaching</h2>
-                
-      <p>Personalized guidance on financial management, savings, investments, and achieving lasting financial freedom.Empowering individuals to focus on their life's purpose with financial confidence.</p>
-
-    </div>
-    
-    <div class="col-lg-4 pt-5">
-
-      <div id="boxed" class="bd-placeholder-img rounded-circle">
-
-        <i class="fa-solid fa-coins fa-2xl" style="color: #000000;" id="scaleIcon"></i>
-        
-      </div>
-
-      <h2 class="fw-bold">Rands and Sense</h2>
-
-      <p>Monthly online series addressing diverse personal finance and business themes.</p>
-
-    </div>
-  </div>
 
   
   
   
   
-  <div id="moreAbout" class="container">
+  <div id="moreAbout" class="container" >
     
 
-    <div class="container my-4">
+    <div class="container my-4" >
   
       <h1 class="display-5 fw-bold text-black">More about us</h1>
   
@@ -92,6 +53,59 @@
     
   </div>
   
+  <div class="container" >
+
+<h1 class="display-5 fw-bold text-black">Our services</h1>
+
+<dividerComp />
+
+</div>
+
+<div id="abtSec" class="container" data-aos="fade-right" data-aos-anchor-placement="center">
+
+
+<div class="col-lg-4 pt-5">
+
+  <div id="boxed" class="bd-placeholder-img rounded-circle">
+
+    <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
+
+  </div>
+
+  <h2 class="fw-bold">Wealthy mind seminars</h2>
+
+  <p>Practical strategies for effective financial management and integrational wealth building.</p>
+
+</div>
+
+<div class="col-lg-4 pt-5">
+
+  <div id="boxed" class="bd-placeholder-img rounded-circle">
+
+    <i class="fa-solid fa-chalkboard-user fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+                
+  </div>
+            
+  <h2 class="fw-bold">Individual Coaching</h2>
+            
+  <p>Personalized guidance on financial management, savings, investments, and achieving lasting financial freedom.Empowering individuals to focus on their life's purpose with financial confidence.</p>
+
+</div>
+
+<div class="col-lg-4 pt-5">
+
+  <div id="boxed" class="bd-placeholder-img rounded-circle">
+
+    <i class="fa-solid fa-coins fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+    
+  </div>
+
+  <h2 class="fw-bold">Rands and Sense</h2>
+
+  <p>Monthly online series addressing diverse personal finance and business themes.</p>
+
+</div>
+</div>
   
   
   
@@ -105,7 +119,7 @@
 
           <div class="container my-2">
 
-            <h1 class="display-5 fw-bold text-black">Insights</h1>
+            <h1 class="display-5 fw-bold text-black">Free Resources</h1>
         
             <dividerComp />
         
@@ -300,6 +314,10 @@ export default {
   #scroll{
     overflow: scroll;
     height: 190px;
+  }
+
+  .T{
+    color:rgb(53, 230, 3);
   }
 
 

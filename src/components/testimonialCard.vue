@@ -15,7 +15,7 @@
                 <div class="clip"></div>
                 <img src="https://placehold.co/100">
             </div>
-            <p>When I started with my Individual Coaching sessions I said to Coach Lee “at this rate some us will never own houses.” But over time I came to appreciate that I was not helpless. With a shift in mindset and small changes in my spending habits, I have eliminated all my consumer debt and now saving towards buying my first property. Twelve Two is an absolute blessing!</p>
+            <p>When I started with my Individual Coaching sessions I said to Coach Lee “at this rate some us will never own houses.” But over time I came to appreciate that I was not helpless. With a shift in mindset and small changes in my spending habits, I have eliminated all my consumer debt and now saving towards buying my first property. <span class="T">T</span>welve <span class="T">T</span> is an absolute blessing!</p>
             <div class="source">		
                 <span>Elizma Smit (Individual Coaching client) </span>
             </div>
@@ -27,7 +27,7 @@
                 <div class="clip"></div>
                 <img src="https://placehold.co/100">
             </div>
-            <p>Thank you Twelve Two for your teachings. They are not in vain. There are 2 days left to payday and I have a little over R10k in my bank account. What this course has taught me is that I am in complete control of my finances and #ICanHaveItLater. Never in my wildest dreams did I think that this would be me. Wamuhle uNkulunkulu bo 🙌🏾. Ever thankful for the way you have impacted my financial life .</p>
+            <p>Thank you <span class="T">T</span>welve <span class="T">T</span> for your teachings. They are not in vain. There are 2 days left to payday and I have a little over R10k in my bank account. What this course has taught me is that I am in complete control of my finances and #ICanHaveItLater. Never in my wildest dreams did I think that this would be me. Wamuhle uNkulunkulu bo 🙌🏾. Ever thankful for the way you have impacted my financial life .</p>
             <div class="source">		
                 <span>Mbali Tsotetsi (Wealthy Minds Seminar client)</span>
             </div>
@@ -176,6 +176,10 @@ p {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     z-index: 99;
+}
+
+.T{
+  color: rgb(53, 230, 3);
 }
 
 @media (max-width:770px) {

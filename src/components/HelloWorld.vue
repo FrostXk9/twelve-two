@@ -7,7 +7,7 @@
       
       
       <div class="display-1 fw-bold text-black my-1" id="fontify">
-        Twelve Two <span id="floatLikeInt">2</span>
+        <span class="T">T</span>welve <span class="T">T</span>wo <span id="floatLikeInt">2</span>
       </div>
       
       <div id="rotate">
@@ -23,8 +23,9 @@
         </div>
       </div>
       
-        <div class="display-5 fw-bold text-white">
-          Get expert advice on how to manage your money 
+        <div class="display-5 fw-bold text-white" id="it">
+          Get professional guidance on adopting prudent financial behaviours to effectively handle your personal finances.
+
         </div>
   
         <!-- <p class="fw-bold text-black text-center mb-2 px-5 mx-3">Twelve two is dedicated to empowering individuals on their financial journey through coaching.Our mission is to demystify personal finance, fostering confidence and success. <br> Guided by a commitment to holistic financial wellness, we provide tailored coaching services, equipping clients with practical tools and strategies for spending plans,investing,and debt elimination. <br> At Twelve Two, we belive in a collaborative approach, working alongside you to transform financial goals into achievable realities.Let us be your partner in navigating the path to financial well-being</p> -->
@@ -127,6 +128,14 @@
     border-radius: 50px;
   }
   
+  .T{
+    color: rgb(53, 230, 3);
+  }
+
+  #it{
+    font-size: 23px;
+    margin-top: 24px;
+  }
   
   #btn:hover{
     color: rgb(53, 230, 3);
