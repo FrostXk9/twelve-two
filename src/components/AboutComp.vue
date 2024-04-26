@@ -2,7 +2,7 @@
 
 
   <div id="about">
-    <div class="p-5 mb-4 bg-body-tertiary" id="bgImg2345">
+    <!-- <div class="p-5 mb-4 bg-body-tertiary" id="bgImg2345">
     
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold text-black">About us</h1>
@@ -28,8 +28,102 @@
         <p class="text-white" id="mediaQ"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @<span class="T">T</span>welve <span class="T">T</span>wo affirmation</p>
       </div>
 
-   </div>
+   </div> -->
 
+   <section class="light">
+	<div class="container py-2">
+		<div class="h1 text-center text-dark" id="pageHeaderTitle">About Us</div>
+
+		<article class="postcard light blue">
+			<a class="postcard__img_link" href="#">
+				<!-- <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" /> -->
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title blue"><a href="#">Empowering Financial Health for South Africans</a></h1>
+				<div class="postcard__subtitle small">
+					<!-- <time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time> -->
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt ear">Financial shame, financial distress, and financial illiteracy are common in many South African households, often without proper assistance. Twelve Two is here to fight for good financial health for all South Africans.</div>
+				<!-- <ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play blue">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul> -->
+			</div>
+		</article>
+		<article class="postcard light red">
+			<a class="postcard__img_link" href="#">
+				<!-- <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	 -->
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title red"><a href="#">Personalized Consulting and Coaching</a></h1>
+				<div class="postcard__subtitle small">
+					<!-- <time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time> -->
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt ear">Our consulting and coaching services are personalized to your specific financial situation and goals. Whether you're starting your journey to financial wellness or aiming to enhance your finances, we're here to support you.</div>
+				<!-- <ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play red">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul> -->
+			</div>
+		</article>
+		<article class="postcard light green">
+			<a class="postcard__img_link" href="#">
+				<!-- <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" /> -->
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title green"><a href="#">Comprehensive Financial Guidance</a></h1>
+				<div class="postcard__subtitle small">
+					<!-- <time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time> -->
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt ear">Our skilled team will collaborate with you to develop a tailored plan that suits your lifestyle and aspirations. From crafting a practical spending plan to devising strategies for debt reduction and intelligent investing, we cover all aspects. And our assistance doesn't end there.</div>
+				<!-- <ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play green">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul> -->
+			</div>
+		</article>
+		<article class="postcard light yellow">
+			<a class="postcard__img_link" href="#">
+				<!-- <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" /> -->
+			</a>
+			<div class="postcard__text t-dark">
+				<h1 class="postcard__title yellow"><a href="#">Expertise You Can Trust</a></h1>
+				<div class="postcard__subtitle small">
+					<!-- <time datetime="2020-05-25 12:00:00">
+						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+					</time> -->
+				</div>
+				<div class="postcard__bar"></div>
+				<div class="postcard__preview-txt ear">We provide unbiased information, objective curriculum, and coaching. With over two decades of combined experience in the investment management industry, our team works closely with top-tier experts in legal, tax, accounting, and financial planning. This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.</div>
+				<!-- <ul class="postcard__tagbox">
+					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+					<li class="tag__item play yellow">
+						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+					</li>
+				</ul> -->
+			</div>
+		</article>
+	</div>
+</section>
 
    
 
@@ -64,45 +158,61 @@
 <div id="abtSec" class="container" data-aos="fade-right" data-aos-anchor-placement="center">
 
 
-<div class="col-lg-4 pt-5">
+  <div class="col-lg-4 pt-5">
+  
+    <div id="boxed" class="bd-placeholder-img rounded-circle">
+  
+      <i class="fa-solid fa-chalkboard-user fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+                  
+    </div>
+              
+    <h2 class="fw-bold">Individual Coaching</h2>
+              
+    <p>Personalized guidance on day-to-day and long term financial management, savings, investments, and achieving lasting financial freedom. We empower individuals to focus on their life's purpose with financial confidence.
+</p>
+  
+  </div>
+  
+  
+  <div class="col-lg-4 pt-5">
+    
+    <div id="boxed" class="bd-placeholder-img rounded-circle">
+      
+      <i class="fa-solid fa-coins fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+      
+    </div>
+    
+    <h2 class="fw-bold">Rands and Sense</h2>
+    
+    <p>This is our regular online series addressing diverse personal finance and business themes such as debt, spending plans, saving vs investing etc. </p>
+    
+  </div>
+  <div class="col-lg-4 pt-5">
+  
+    <div id="boxed" class="bd-placeholder-img rounded-circle">
+  
+      <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
+  
+    </div>
+  
+    <h2 class="fw-bold">Wealthy mind seminars</h2>
+  
+    <p>We bring together an unstoppable network of individuals and communities – people who care about financial health to make a difference. These in-depth sessions provide practical strategies for improving money management and building intergenerational wealth. Topics include the law of contracts in marriage and business, estate planning, short and long-term insurance, education planning, tax and many more. </p>
+  
+  </div>
 
+  <div class="col-lg-4 pt-5">
+  
   <div id="boxed" class="bd-placeholder-img rounded-circle">
 
     <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
 
   </div>
 
-  <h2 class="fw-bold">Wealthy mind seminars</h2>
+  <h2 class="fw-bold">Customised Financial Wellness Programs</h2>
 
-  <p>Practical strategies for effective financial management and integrational wealth building.</p>
-
-</div>
-
-<div class="col-lg-4 pt-5">
-
-  <div id="boxed" class="bd-placeholder-img rounded-circle">
-
-    <i class="fa-solid fa-chalkboard-user fa-2xl" style="color: #000000;" id="scaleIcon"></i>
-                
-  </div>
-            
-  <h2 class="fw-bold">Individual Coaching</h2>
-            
-  <p>Personalized guidance on financial management, savings, investments, and achieving lasting financial freedom.Empowering individuals to focus on their life's purpose with financial confidence.</p>
-
-</div>
-
-<div class="col-lg-4 pt-5">
-
-  <div id="boxed" class="bd-placeholder-img rounded-circle">
-
-    <i class="fa-solid fa-coins fa-2xl" style="color: #000000;" id="scaleIcon"></i>
-    
-  </div>
-
-  <h2 class="fw-bold">Rands and Sense</h2>
-
-  <p>Monthly online series addressing diverse personal finance and business themes.</p>
+  <p>Our partnership with organisations involves crafting and guiding personalised financial wellness initiatives for employees or beneficiaries. These programs target reducing problems like absenteeism due to financial stress or garnishee orders for staff in debt, while also enhancing comprehension of workplace pension and insurance products.
+ </p>
 
 </div>
 </div>
@@ -125,7 +235,7 @@
         
           </div>
 
-          <p class="card-text lead text-black-50">Insights that will be helpful when starting out with us!</p>
+          <p class="card-text lead text-black-50">Access essential tools for financial mastery – explore our free resources now!"</p>
 
           <div class="d-flex justify-content-center" id="scroll">
 
@@ -215,7 +325,18 @@ export default {
 }
 </script>
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 
+:root {
+  --main-green: #79dd09;
+  --main-green-rgb-015: rgba(121, 221, 9, 0.1);
+  --main-yellow: #bdbb49;
+  --main-yellow-rgb-015: rgba(189, 187, 73, 0.1);
+  --main-red: #bd150b;
+  --main-red-rgb-015: rgba(189, 21, 11, 0.1);
+  --main-blue: #0076bd;
+  --main-blue-rgb-015: rgba(0, 118, 189, 0.1);
+}
   #about, #moreAbout{
     min-height: 100vh;
   }
@@ -266,8 +387,8 @@ export default {
   }
 
   #abtSec{
-    display: flex;
-    justify-content: center;
+    display: ruby;
+    /* justify-content: center; */
   }
   .ul{
     height: 5px;
@@ -319,6 +440,139 @@ export default {
   .T{
     color:rgb(53, 230, 3);
   }
+  .light {
+  background: #f3f5f7;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#pageHeaderTitle {
+  margin: 2rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Cards */
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  box-shadow: 0 4px 21px -12px rgb(21 80 23 / 66%);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+}
+
+.postcard.light {
+  background-color: #e1eae2;
+}
+
+.postcard.light .t-dark {
+  color: #18151f;
+}
+
+.postcard a {
+  color: inherit;
+}
+
+.ear{
+  display: contents;
+  
+}
+.postcard h1,
+.postcard .h1 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.postcard .small {
+  font-size: 80%;
+}
+
+.postcard .postcard__title {
+  font-size: 1.75rem;
+}
+
+.postcard .postcard__img {
+  max-height: 180px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.postcard .postcard__img_link {
+  display: contents;
+}
+
+.postcard .postcard__bar {
+  width: 50px;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: rgb(53, 230, 3);
+  transition: width 0.2s ease;
+}
+
+.postcard .postcard__text {
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.postcard .postcard__preview-txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+  height: 100%;
+}
+
+.postcard .postcard__tagbox {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.postcard .postcard__tagbox .tag__item {
+  display: inline-block;
+  background: rgba(83, 83, 83, 0.4);
+  border-radius: 3px;
+  padding: 2.5px 10px;
+  margin: 0 5px 5px 0;
+  cursor: default;
+  user-select: none;
+  transition: background-color 0.3s;
+}
+
+.postcard .postcard__tagbox .tag__item:hover {
+  background: rgba(83, 83, 83, 0.8);
+}
+
+.postcard.light:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* background-image: linear-gradient(-70deg, #424242, transparent 50%); */
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.postcard.light:hover .postcard__bar {
+  width: 100px;
+}
 
 
   @media (max-width: 995px) {
@@ -363,6 +617,70 @@ export default {
       overflow: scroll;
       max-height: 145px;
     }
+
+    @media screen and (min-width: 769px) {
+  .postcard.light {
+    flex-wrap: inherit;
   }
+
+  .postcard.light .postcard__title {
+    font-size: 2rem;
+  }
+
+  .postcard.light .postcard__tagbox {
+    justify-content: start;
+  }
+
+  .postcard.light .postcard__img {
+    max-width: 300px;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+  }
+
+  .postcard.light .postcard__text {
+    padding: 3rem;
+    width: 100%;
+  }
+
+  .postcard.light:nth-child(2n+1) {
+    flex-direction: row;
+  }
+
+  .postcard.light:nth-child(2n+0) {
+    flex-direction: row-reverse;
+  }
+
+  .postcard.light:nth-child(2n+1) .postcard__text::before {
+    left: -12px !important;
+    transform: rotate(4deg);
+  }
+
+  .postcard.light:nth-child(2n+0) .postcard__text::before {
+    right: -12px !important;
+    transform: rotate(-4deg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .postcard.light:before {
+    background: #e1e5ea;
+  }
+
+  .postcard.light .postcard__text {
+    padding: 2rem 3.5rem;
+  }
+
+  .postcard.light .postcard__text:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -20%;
+    height: 130%;
+    width: 55px;
+    background: #e1e5ea;
+  }
+}
+  }
+
   
 </style>
