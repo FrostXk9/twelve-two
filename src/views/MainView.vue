@@ -22,11 +22,11 @@
     
   </div>
 
-  <div id="contact">
+  <!-- <div id="contact">
 
     <ContactComp />
 
-  </div>
+  </div> -->
 
 </template>
 
