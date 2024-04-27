@@ -10,12 +10,11 @@
     <AboutComp />
 
   </div>
+  <div id="FreeResources">
 
-  <!-- <div id="ourTimeLine">
+    <FreeResources />
 
-    <TimelineComp />
-
-  </div> -->
+  </div>
   <div id="testimonials">
     
     <testimonialCardVue />
@@ -36,6 +35,7 @@ import AboutComp from '../components/AboutComp.vue';
 import TimelineComp from '../components/TimelineComp.vue';
 import ContactComp from '../components/ContactComp.vue';
 import testimonialCardVue from '../components/testimonialCard.vue';
+import FreeResources from '../components/FreeResources.vue'
 
 export default {
   name: 'HomeView',
@@ -44,7 +44,8 @@ export default {
     AboutComp,
     TimelineComp,
     ContactComp,
-    testimonialCardVue
+    testimonialCardVue,
+    FreeResources
   }
 }
 </script>

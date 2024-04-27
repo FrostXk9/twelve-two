@@ -10,19 +10,19 @@
 
    <div id="cd" class="py-3 mb-3">
     <offcanvasCard cardContent="Get out of debt - Through our partnership with the dfree® Global Foundation, you get financial freedom lessons at your fingertips from virtually anywhere through the dfree® online Academy "/>
-    <a class="btn bg-black text-white" href="https://academy.dfreefoundation.org/">Click here</a>
+    <a class="btn bg-black text-white" target="_blank" href="https://academy.dfreefoundation.org/">Click here</a>
    </div>
 
   <div id="cd" class="py-3 mb-3">
     <offcanvasCard cardContent="Access your credit report - Experian provides free credit reports and free credit scores on My Credit Check"/>
-      <a class="btn bg-black text-white" href="https://www.mycreditcheck.co.za/">Click here</a>
+      <a class="btn bg-black text-white" target="_blank" href="https://www.mycreditcheck.co.za/">Click here</a>
   </div>
 
   <div id="cd" class="py-3 mb-3">
 
     <offcanvasCard cardContent="Belong to a community savings club? Check out Stokfella for an easy tech savvy way of managing your group affairs."/>
       
-      <a class="btn bg-black text-white" href="https://www.stokfella.com/">Click here</a>
+      <a class="btn bg-black text-white" target="_blank" href="https://www.stokfella.com/">Click here</a>
 
   </div>
   </div>

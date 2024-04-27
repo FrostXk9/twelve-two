@@ -2,128 +2,63 @@
 
 
   <div id="about">
-    <!-- <div class="p-5 mb-4 bg-body-tertiary" id="bgImg2345">
-    
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold text-black">About us</h1>
+    <section class="light">
 
-        <dividerComp />
+      <div class="container py-2" id="gridifyy">
 
-        <p class="col-md-12 fs-4 mt-4 text-white container" data-aos="fade-up" data-aos-anchor-placement="center" id="mediaQtxt">
-          Financial shame, financial distress and financial illiteracy are common in many  South African households, often without proper assistance. Twelve Two is here to fight for good financial health for all South Africans.  
-          <br>
-          <br>
-          <br>
+        <div class="h1 text-center text-dark" id="pageHeaderTitle">About Us</div>
 
-          Our consulting and coaching services are personalized to your specific financial situation and goals. Whether you're starting your journey to financial wellness or aiming to enhance your finances, we're here to support you. Our skilled team will collaborate with you to develop a tailored plan that suits your lifestyle and aspirations. From crafting a practical spending plan to devising strategies for debt reduction and intelligent investing, we cover all aspects. And our assistance doesn't end there. We believe in empowering our clients with the knowledge and tools necessary for long-term success. That's why we offer ongoing guidance and support every step of the way, helping you build confidence and achieve lasting financial prosperity.
+        <article class="postcard light blue">
 
-          <br>
-          <br>
-          <br>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title blue"><a href="#">Empowering Financial Health for South Africans</a></h1>
+            <div class="postcard__subtitle small">
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt ear">Financial shame, financial distress, and financial illiteracy are common in many South African households, often without proper assistance. Twelve Two is here to fight for good financial health for all South Africans.</div>
+          </div>
 
-          We provide unbiased information, objective curriculum, and coaching. With over two decades of combined experience in the investment management industry, our team works closely with top-tier experts in legal, tax, accounting, and financial planning. This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.
+        </article>
 
+        <article class="postcard light red">
 
-        </p>
-        <p class="text-white" id="mediaQ"><q>Someone is sitting in the shade today because someone planted a tree long time ago</q> <br> <b>- Warren Buffet-</b> <br> @<span class="T">T</span>welve <span class="T">T</span>wo affirmation</p>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title red"><a href="#">Personalized Consulting and Coaching</a></h1>
+            <div class="postcard__subtitle small">
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt ear">Our consulting and coaching services are personalized to your specific financial situation and goals. Whether you're starting your journey to financial wellness or aiming to enhance your finances, we're here to support you.</div>
+          </div>
+
+        </article>
+
+        <article class="postcard light green">
+
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title green"><a href="#">Comprehensive Financial Guidance</a></h1>
+            <div class="postcard__subtitle small">
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt ear">Our skilled team will collaborate with you to develop a tailored plan that suits your lifestyle and aspirations. From crafting a practical spending plan to devising strategies for debt reduction and intelligent investing, we cover all aspects. And our assistance doesn't end there.</div>
+          </div>
+
+        </article>
+
+        <article class="postcard light yellow">
+
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title yellow"><a href="#">Expertise You Can Trust</a></h1>
+            <div class="postcard__subtitle small">
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt ear">We provide unbiased information, objective curriculum, and coaching. With over two decades of combined experience in the investment management industry, our team works closely with top-tier experts in legal, tax, accounting, and financial planning. This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.</div>
+          </div>
+
+        </article>
+
       </div>
 
-   </div> -->
-
-   <section class="light">
-	<div class="container py-2">
-		<div class="h1 text-center text-dark" id="pageHeaderTitle">About Us</div>
-
-		<article class="postcard light blue">
-			<a class="postcard__img_link" href="#">
-				<!-- <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" /> -->
-			</a>
-			<div class="postcard__text t-dark">
-				<h1 class="postcard__title blue"><a href="#">Empowering Financial Health for South Africans</a></h1>
-				<div class="postcard__subtitle small">
-					<!-- <time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-					</time> -->
-				</div>
-				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt ear">Financial shame, financial distress, and financial illiteracy are common in many South African households, often without proper assistance. Twelve Two is here to fight for good financial health for all South Africans.</div>
-				<!-- <ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play blue">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
-				</ul> -->
-			</div>
-		</article>
-		<article class="postcard light red">
-			<a class="postcard__img_link" href="#">
-				<!-- <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	 -->
-			</a>
-			<div class="postcard__text t-dark">
-				<h1 class="postcard__title red"><a href="#">Personalized Consulting and Coaching</a></h1>
-				<div class="postcard__subtitle small">
-					<!-- <time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-					</time> -->
-				</div>
-				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt ear">Our consulting and coaching services are personalized to your specific financial situation and goals. Whether you're starting your journey to financial wellness or aiming to enhance your finances, we're here to support you.</div>
-				<!-- <ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play red">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
-				</ul> -->
-			</div>
-		</article>
-		<article class="postcard light green">
-			<a class="postcard__img_link" href="#">
-				<!-- <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" /> -->
-			</a>
-			<div class="postcard__text t-dark">
-				<h1 class="postcard__title green"><a href="#">Comprehensive Financial Guidance</a></h1>
-				<div class="postcard__subtitle small">
-					<!-- <time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-					</time> -->
-				</div>
-				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt ear">Our skilled team will collaborate with you to develop a tailored plan that suits your lifestyle and aspirations. From crafting a practical spending plan to devising strategies for debt reduction and intelligent investing, we cover all aspects. And our assistance doesn't end there.</div>
-				<!-- <ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play green">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
-				</ul> -->
-			</div>
-		</article>
-		<article class="postcard light yellow">
-			<a class="postcard__img_link" href="#">
-				<!-- <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" /> -->
-			</a>
-			<div class="postcard__text t-dark">
-				<h1 class="postcard__title yellow"><a href="#">Expertise You Can Trust</a></h1>
-				<div class="postcard__subtitle small">
-					<!-- <time datetime="2020-05-25 12:00:00">
-						<i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
-					</time> -->
-				</div>
-				<div class="postcard__bar"></div>
-				<div class="postcard__preview-txt ear">We provide unbiased information, objective curriculum, and coaching. With over two decades of combined experience in the investment management industry, our team works closely with top-tier experts in legal, tax, accounting, and financial planning. This collective expertise ensures comprehensive and informed guidance to navigate the complexities of your financial journey.</div>
-				<!-- <ul class="postcard__tagbox">
-					<li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
-					<li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
-					<li class="tag__item play yellow">
-						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
-					</li>
-				</ul> -->
-			</div>
-		</article>
-	</div>
-</section>
+    </section>
 
    
 
@@ -131,7 +66,7 @@
   
   
   
-  <div id="moreAbout" class="container" >
+  <div id="moreAbout" class="container">
     
 
     <div class="container my-4" >
@@ -147,81 +82,80 @@
     
   </div>
   
-  <div class="container" >
+  <div class="container">
 
-<h1 class="display-5 fw-bold text-black">Our services</h1>
+    <h1 class="display-5 fw-bold text-black">Our services</h1>
 
-<dividerComp />
+    <dividerComp />
 
-</div>
+  </div>
 
-<div id="abtSec" class="container" data-aos="fade-right" data-aos-anchor-placement="center">
+  <div id="abtSec" class="container-fluid">
 
 
-  <div class="col-lg-4 pt-5">
-  
-    <div id="boxed" class="bd-placeholder-img rounded-circle">
-  
-      <i class="fa-solid fa-chalkboard-user fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+    <div class="col-lg-4 pt-5" id="services">
+      
+      <div id="boxed" class="bd-placeholder-img rounded-circle">
+      
+        <i class="fa-solid fa-chalkboard-user fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+                      
+        </div>
                   
-    </div>
-              
-    <h2 class="fw-bold">Individual Coaching</h2>
-              
-    <p>Personalized guidance on day-to-day and long term financial management, savings, investments, and achieving lasting financial freedom. We empower individuals to focus on their life's purpose with financial confidence.
-</p>
-  
-  </div>
-  
-  
-  <div class="col-lg-4 pt-5">
-    
-    <div id="boxed" class="bd-placeholder-img rounded-circle">
+        <h2 class="fw-bold">Individual Coaching</h2>
+                  
+        <p class="justify container">Personalized guidance on day-to-day and long term financial management, savings, investments, and achieving lasting financial freedom. We empower individuals to focus on their life's purpose with financial confidence.</p>
       
-      <i class="fa-solid fa-coins fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+      </div>
+  
+  
+      <div class="col-lg-4 pt-5">
+        
+        <div id="boxed" class="bd-placeholder-img rounded-circle">
+          
+          <i class="fa-solid fa-coins fa-2xl" style="color: #000000;" id="scaleIcon"></i>
+          
+        </div>
+        
+        <h2 class="fw-bold">Rands and Sense</h2>
+        
+        <p class="justify container">This is our regular online series addressing diverse personal finance and business themes such as debt, spending plans, saving vs investing etc. </p>
+        
+      </div>
+      <div class="col-lg-4 pt-5">
       
+        <div id="boxed" class="bd-placeholder-img rounded-circle">
+      
+          <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
+      
+        </div>
+      
+        <h2 class="fw-bold">Wealthy mind seminars</h2>
+      
+        <p class="justify container">We bring together an unstoppable network of individuals and communities – people who care about financial health to make a difference. These in-depth sessions provide practical strategies for improving money management and building intergenerational wealth. Topics include the law of contracts in marriage and business, estate planning, short and long-term insurance, education planning, tax and many more. </p>
+      
+      </div>
+
+      <div class="col-lg-4 pt-5">
+      
+      <div id="boxed" class="bd-placeholder-img rounded-circle">
+
+        <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
+
+      </div>
+
+      <h2 class="fw-bold">Customised Financial Wellness Programs</h2>
+
+      <p class="justify container">Our partnership with organisations involves crafting and guiding personalised financial wellness initiatives for employees or beneficiaries. These programs target reducing problems like absenteeism due to financial stress or garnishee orders for staff in debt, while also enhancing comprehension of workplace pension and insurance products.</p>
+
     </div>
-    
-    <h2 class="fw-bold">Rands and Sense</h2>
-    
-    <p>This is our regular online series addressing diverse personal finance and business themes such as debt, spending plans, saving vs investing etc. </p>
-    
-  </div>
-  <div class="col-lg-4 pt-5">
-  
-    <div id="boxed" class="bd-placeholder-img rounded-circle">
-  
-      <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
-  
-    </div>
-  
-    <h2 class="fw-bold">Wealthy mind seminars</h2>
-  
-    <p>We bring together an unstoppable network of individuals and communities – people who care about financial health to make a difference. These in-depth sessions provide practical strategies for improving money management and building intergenerational wealth. Topics include the law of contracts in marriage and business, estate planning, short and long-term insurance, education planning, tax and many more. </p>
-  
-  </div>
-
-  <div class="col-lg-4 pt-5">
-  
-  <div id="boxed" class="bd-placeholder-img rounded-circle">
-
-    <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
 
   </div>
-
-  <h2 class="fw-bold">Customised Financial Wellness Programs</h2>
-
-  <p>Our partnership with organisations involves crafting and guiding personalised financial wellness initiatives for employees or beneficiaries. These programs target reducing problems like absenteeism due to financial stress or garnishee orders for staff in debt, while also enhancing comprehension of workplace pension and insurance products.
- </p>
-
-</div>
-</div>
   
   
   
   
 
-  <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center">
+  <!-- <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center">
 
       <div class="card mb-3" id="card">
 
@@ -297,7 +231,7 @@
 
       </div>
     
-  </div>
+  </div> -->
 
 
   </div>
@@ -327,26 +261,27 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 
-:root {
-  --main-green: #79dd09;
-  --main-green-rgb-015: rgba(121, 221, 9, 0.1);
-  --main-yellow: #bdbb49;
-  --main-yellow-rgb-015: rgba(189, 187, 73, 0.1);
-  --main-red: #bd150b;
-  --main-red-rgb-015: rgba(189, 21, 11, 0.1);
-  --main-blue: #0076bd;
-  --main-blue-rgb-015: rgba(0, 118, 189, 0.1);
-}
+  :root {
+    --main-green: #79dd09;
+    --main-green-rgb-015: rgba(121, 221, 9, 0.1);
+    --main-yellow: #bdbb49;
+    --main-yellow-rgb-015: rgba(189, 187, 73, 0.1);
+    --main-red: #bd150b;
+    --main-red-rgb-015: rgba(189, 21, 11, 0.1);
+    --main-blue: #0076bd;
+    --main-blue-rgb-015: rgba(0, 118, 189, 0.1);
+  }
+  .justify{
+    text-align: justify !important;
+  }
+
   #about, #moreAbout{
     min-height: 100vh;
   }
 
-  #bgImg2345{
-    background-image: url('https://cdn-images.imagevenue.com/69/dc/36/ME17NVGW_o.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.616), #000000bd);
+  #gridifyy{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   #card{
@@ -387,9 +322,13 @@ export default {
   }
 
   #abtSec{
-    display: ruby;
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    flex-wrap: wrap;
+    gap: 10px;
   }
+
   .ul{
     height: 5px;
     width: 90px;
@@ -399,6 +338,7 @@ export default {
     top: 12.6%;
     left: 0.3%;
   }
+  
   [data-boxed]{
     min-height: 50vh;
     background-image: url("https://cdn-images.imagevenue.com/0c/da/8c/ME17KQ92_o.jpg");
@@ -441,8 +381,8 @@ export default {
     color:rgb(53, 230, 3);
   }
   .light {
-  background: #f3f5f7;
-}
+   background: #f3f5f7;
+  }
 
 a,
 a:hover {
@@ -565,7 +505,6 @@ a:hover {
   right: 0;
   bottom: 0;
   left: 0;
-  /* background-image: linear-gradient(-70deg, #424242, transparent 50%); */
   opacity: 1;
   border-radius: 10px;
 }

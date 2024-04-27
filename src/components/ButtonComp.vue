@@ -1,13 +1,19 @@
 <template>
     <a href="https://bookem.co.za/" id="btn" class="btn">
 
-        {{ btnContent="Workshops" }}
+        {{ btnContent="Workshops/seminars" }}
 
     </a>
 
     <a href="#about" id="btn" class="btn">
 
-        {{ btnContent="know more" }} <i class="fa-solid fa-arrow-right-long fa-sm" style="color: #ffffff;"></i>
+        {{ btnContent="One-on Coaching" }}
+
+    </a>
+
+    <a href="#FreeResources" id="btn" class="btn">
+
+        {{ btnContent="Free resources" }}
 
     </a>
 
@@ -26,7 +32,6 @@
     width: 20%;
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid white;
     padding: 10px 5px;
     font-size: 15px;
     font-weight: bold;
@@ -35,7 +40,7 @@
     transition: all 0.3s;
     background-color: #48DD22;
     overflow: hidden;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
 }
 
@@ -51,7 +56,9 @@
     top: 0;
     left: -50px;
     transform: skewX(0deg);
-    background-color: #0004ff84;
+    background-color: #6eff693c;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: 1;
     transition: all 0.6s;
 }
@@ -66,7 +73,6 @@
         width: 35%;
         text-transform: uppercase;
         text-decoration: none;
-        border: 1px solid white;
         padding: 10px 5px;
         font-size: 10px;
         font-weight: bold;
@@ -75,7 +81,6 @@
         transition: all 0.3s;
         background-color: #48DD22;
         overflow: hidden;
-        border-radius: 50px;
         box-shadow: inset 10px 10px 10px 10px #2ba4152d;
     }
 
@@ -101,10 +106,9 @@
 @media (max-width: 400px) {
     #btn {
         color: rgb(255, 255, 255);
-        width: 35%;
+        width: 50%;
         text-transform: uppercase;
         text-decoration: none;
-        border: 1px solid white;
         padding: 10px 5px;
         font-size: 10px;
         font-weight: bold;
@@ -113,7 +117,6 @@
         transition: all 0.3s;
         background-color: #48DD22;
         overflow: hidden;
-        border-radius: 50px;
         box-shadow: inset 10px 10px 10px 10px #2ba4152d;
     }
 
@@ -145,7 +148,6 @@
     width: 35%;
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid white;
     padding: 10px 5px;
     font-size: 10px;
     font-weight: bold;
@@ -154,7 +156,6 @@
     transition: all 0.3s;
     background-color: #48DD22;
     overflow: hidden;
-    border-radius: 50px;
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
 }
 

@@ -1,51 +1,74 @@
 <template>
-    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-style>
 
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgba(0, 0, 0, 0.079)"/></svg>
-        <div class="container mt-4">
-          <div class="carousel-caption text-center text-black">
-            <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-            
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgba(0, 0, 0, 0.079)"/></svg>
-        <div class="container mt-4">
-          <div class="carousel-caption text-center text-black">
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="rgba(0, 0, 0, 0.079)"/></svg>
-        <div class="container mt-4">
-          <div class="carousel-caption text-center text-black">
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+  <swiper
+    :slidesPerView="1"
+    :spaceBetween="30"
+    :loop="true"
+    :pagination="{
+      clickable: true,
+    }"
+    :navigation="true"
+    :modules="modules"
+    class="mySwiper my-3 shadow rounded-2"
+  >
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 1</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 2</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 3</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 4</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 5</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 6</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 7</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 8</swiper-slide>
+
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 9</swiper-slide>
+
+  </swiper>
+
 </template>
 <script>
-export default {
-    
-}
+  // Import Swiper Vue.js components
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+  // Import Swiper styles
+  import 'swiper/css';
+
+  import 'swiper/css/pagination';
+  import 'swiper/css/navigation';
+
+  // import required modules
+  import { Pagination, Navigation } from 'swiper/modules';
+
+  export default {
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    setup() {
+      return {
+        modules: [Pagination, Navigation],
+      };
+    },
+  };
 </script>
 <style scoped>
 
+  .height_slide{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apply_primary_company_color{
+    background-color: rgb(120, 167, 255);
+  }
 
 </style>

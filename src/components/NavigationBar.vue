@@ -1,159 +1,131 @@
 <template>
-    <!-- use bootstrap only for alignment etc. -->
-    <!-- no inline styling  -->
-    <!-- make sure nav is fully responsive on given width as shown inside the "inspect", if you have questions I will show you what I meant by this -->
-    <!-- Okay -->
-       <!-- Nav as propsed on figma design -->
-       <header class="d-flex justify-content-evenly" id="navBar">
-   
-   
-           <svg xmlns="http://www.w3.org/2000/svg" width="793" height="52" viewBox="0 0 793 100" fill="#88CB34" class="svgg">
-               <path d="M793 0L395 100L0 0L793 0Z" fill="rgb(0, 216, 0)"/>
-           </svg>
-   
-           <nav class="navbar navbar-expand-lg">
-   
-               <div class="container-fluid">
-   
-                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-   
-                   <span class="navbar-toggler-icon"></span>
-                   
-                   </button>
-   
-                   <a class="navbar-brand px-3" href="#" id="OnExpand">Twelve Two <span id="shrink">2</span></a>
-   
-                   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-   
-                       <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
-   
-                           <li class="nav-item">
-   
-                           <a class="nav-link" href="#home" id="navText">Home</a>
-   
-                           </li>
-                           
-                           <li class="nav-item">
-   
-                           <a class="nav-link" href="#about" id="navText">About</a>
-   
-                           </li>
-   
-   
-                           <li class="nav-item" id="OnShrink">
-   
-                               <a class="navbar-brand nav-link mx-3" href="#" id="logoBG"><img src="https://cdn-thumbs.imagevenue.com/f7/b4/d5/ME17IVRQ_t.png" alt="twelve_Two_logo" id="fitLogo" /></a>
-   
-                           </li>
-   
-                           <li class="nav-item">
-   
-                               <a class="nav-link" href="#testimonials" id="navText">Clients</a>
-   
-                           </li>
-   
-                           <li class="nav-item">
-   
-                           <a class="nav-link" href="#contact" id="navText">Contact</a>
-   
-                           </li>
-   
-                       </ul>
-   
-                   </div>
-   
-               </div>  
-   
-           </nav>
-   
-       </header>
-   
-   </template>
-   
-   <script>
-   export default {
-       
-   }
-   </script>
-   
-   <style scoped>
-       *{
-           transition: all 0.5s ease-in-out;
-       }
-   
-       .svgg{
-           position: absolute;
-           left: 23.45%;
-       }
-   
-       #logoBG{
-           transform: scale(133%);
-           opacity: 4;
-       }
-   
-   
-       #navText{
-           color: rgb(6, 119, 27);
-           font-weight: 800;
-       }
-   
-       #OnExpand{
-           display: none;
-           color: #0d0d43;
-        }
-       
-       #OnExpand::first-letter{
-           color: rgb(0, 216, 0);
-       }
-   
-       #OnShrink{
-           display: block;
-       }
-       
-       #navBar{
-           background-color: rgb(255, 255, 255);
-           width: 100%;
-           position: fixed;
-           top: 0;
-           height: auto;
-           width: 100%;
-           z-index: 1;
-       }
-   
-       @media (max-width: 950px) {
-           #OnExpand{
-               display: block;
-           }
-           #OnShrink{
-               display: none;
-           }
-           #navBar{
-            background-color: rgb(255, 255, 255);
-           }
-   
-           /* issue no.1 */
-           .svgg{
-               display: none;
-           }
-           
-       }
-   
-       #shrink{
-           font-size: 10px;
-           position: absolute;
-           color: rgb(0, 216, 0);
-       }
-   
-       #fitLogo{
-           height: 30px;
-           transform: scale(200%);
-       }
-       
-       #logoBG{
-           background-color: #101242;
-           border-radius: 50%;
-       }
-   
-   
-       
-   </style>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-white rounded-1"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="/">
+            <img 
+            src="https://cdn-thumbs.imagevenue.com/f7/b4/d5/ME17IVRQ_t.png" 
+            alt="twelve_Two_logo" 
+            id="imgLogo"
+            loading="lazy"
+            >
+          </a>
+          <ul class="navbar-nav ms-auto mb-lg-0 gap-4 mx-4">
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" id="nav" href="#home" data-nav>Home</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link text-decoration-none" id="nav"  href="#about" data-nav>About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" id="nav" href="#services" data-nav>Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-decoration-none" id="nav" href="#contact" data-nav>Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </template>
+  
+  <script>
+  export default {
+    methods : {
+      fetchApiData : function(){
+        this.$store.dispatch('fetchApiData')
+      }
+    },
+  
+    mounted(){
+      this.fetchApiData()
+    },
+  }
+  </script>
+  
+  <style scoped>
+  
+  #nav{
+    font-weight: bold;
+    color: rgb(20, 204, 54);
+    transition: all 1s ease-in-out;
+  }
+  
+  #navbar a.router-link-exact-active {
+    text-decoration: none;
+    color: rgb(20, 204, 54);
+  }
+  
+  [data-nav] {
+    color: rgb(20, 204, 54);
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  [data-nav]:focus,
+  [data-nav]:hover {
+    color: rgb(20, 204, 54);
+  }
+  
+  [data-nav]:focus:after,
+  [data-nav]:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  [data-nav]:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(20, 204, 54);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+  
+  #navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: auto;
+    z-index: 300;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  #imgLogo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(20, 204, 54);
+    background: #0d0d43;
+    box-shadow: 1px 1px 10px 1px black;
+  }
+  
+  @media (max-width: 992px) {
+    #navbar{
+      position: fixed;
+      top: 0%;
+      width: 100%;
+      height: auto;
+      z-index: 300;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  
+      
+  </style>

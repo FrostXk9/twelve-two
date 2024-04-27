@@ -1,13 +1,13 @@
 <template>
 
-  <div class="position-relative overflow-hidden text-center" id="landingPage" loading="lazy">
+  <div class="position-relative overflow-hidden text-center" id="landingPage">
 
     <div class="col-md-12 p-lg-2 mx-auto container" id="childpg34">
       
       
       
-      <div class="display-1 fw-bold text-black my-1" id="fontify">
-        <span class="T">T</span>welve <span class="T">T</span>wo <span id="floatLikeInt">2</span>
+      <div class="display-1 fw-normal text-black mb-1" id="fontify">
+        <span class="T">T</span>welve <span class="T">T</span>wo
       </div>
       
       <div id="rotate">
@@ -23,27 +23,19 @@
         </div>
       </div>
       
-        <div class="display-5 fw-bold text-white" id="it">
+        <p class="fs-5 container-fluid fw-normal text-white" id="it">
           Get professional guidance on adopting prudent financial behaviours to effectively handle your personal finances.
-
-        </div>
-  
-        <!-- <p class="fw-bold text-black text-center mb-2 px-5 mx-3">Twelve two is dedicated to empowering individuals on their financial journey through coaching.Our mission is to demystify personal finance, fostering confidence and success. <br> Guided by a commitment to holistic financial wellness, we provide tailored coaching services, equipping clients with practical tools and strategies for spending plans,investing,and debt elimination. <br> At Twelve Two, we belive in a collaborative approach, working alongside you to transform financial goals into achievable realities.Let us be your partner in navigating the path to financial well-being</p> -->
-        
-        <!-- <details>
-          <summary>Text</summary>
-          something about this bussiness
-        </details> -->
+        </p>
         
         <div class="mb-4">
 
-          <h3 class="text-white">Stay updated with us <i class="fa-regular fa-calendar-check fa-lg" style="color: rgb(53, 230, 3);"></i></h3>
+          <h3 class="text-white">Take control of your finances starting now <i class="fa-regular fa-calendar-check fa-lg" style="color: rgb(53, 230, 3);"></i></h3>
 
           <p class="small text-center text-white-50">Build your knowledge today!</p>
 
         </div>
 
-        <div class="d-flex gap-5 mb-4 justify-content-center lead fw-normal mt-1">
+        <div class="d-flex gap-5 mb-4 justify-content-center flex-wrap lead fw-normal mt-1">
   
           <ButtonComp />
   
@@ -64,9 +56,9 @@
         
       </div>
 
-      <div id="posBtmRight">
+      <!-- <div id="posBtmRight">
         <offcanvasComp />
-      </div>
+      </div> -->
 
 
       
@@ -87,36 +79,40 @@
   </script>
   
   <style scoped>
+  @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
   #landingPage{
-    background-image: url("../assets/pexels-cottonbro-studio-4101143.jpg");
+    /* background-image: url("../assets/pexels-cottonbro-studio-4101143.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.665), #030404a6);
+    background: radial-gradient(circle, hsla(233, 57%, 56%, 0.788), rgb(255, 255, 255));
+    /* border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.665), #030404a6); */
+    background-attachment: fixed;
   }
   
   #fontify{
-    background: linear-gradient(to right,#48DD22, rgb(55, 255, 0));
-    -webkit-background-clip: text;
+    /* background: linear-gradient(to right,#48DD22, rgb(55, 255, 0)); */
+    /* -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: white !important;
   }
   
   #btn{
     font-weight: 600;
   }
 
-  #posBtmRight{
+  /* #posBtmRight{
     position: absolute;
     right: 0%;
     bottom: 0%;
     margin-bottom: 10px;
     margin-right: 10px;
-  }
+  } */
 
 
   #jumbotron234{
