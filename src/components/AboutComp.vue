@@ -108,7 +108,7 @@
       </div>
   
   
-      <div class="col-lg-4 pt-5">
+      <div class="col-lg-4 pt-5" id="services">
         
         <div id="boxed" class="bd-placeholder-img rounded-circle">
           
@@ -121,7 +121,8 @@
         <p class="justify container">This is our regular online series addressing diverse personal finance and business themes such as debt, spending plans, saving vs investing etc. </p>
         
       </div>
-      <div class="col-lg-4 pt-5">
+      
+      <div class="col-lg-4 pt-5" id="services">
       
         <div id="boxed" class="bd-placeholder-img rounded-circle">
       
@@ -135,11 +136,11 @@
       
       </div>
 
-      <div class="col-lg-4 pt-5">
+      <div class="col-lg-4 pt-5" id="services">
       
       <div id="boxed" class="bd-placeholder-img rounded-circle">
 
-        <i class="fa-solid fa-brain fa-2xl" style="color: #050505;" id="scaleIcon"></i>
+        <i class="fa-solid fa-comments-dollar fa-2xl" style="color: #000000;" id="scaleIcon"></i>
 
       </div>
 
@@ -338,6 +339,15 @@ export default {
     top: 12.6%;
     left: 0.3%;
   }
+
+  /* #services{
+    border: 1px solid #79dd09;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
   
   [data-boxed]{
     min-height: 50vh;

@@ -79,7 +79,7 @@
   </script>
   
   <style scoped>
-  @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+  
   #landingPage{
     /* background-image: url("../assets/pexels-cottonbro-studio-4101143.jpg");
     background-repeat: no-repeat;

@@ -68,7 +68,7 @@
   }
 
   .apply_primary_company_color{
-    background-color: rgb(120, 167, 255);
+    background-color: rgb(255, 255, 255);
   }
 
 </style>

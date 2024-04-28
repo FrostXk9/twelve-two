@@ -108,8 +108,8 @@
   }
   
   #imgLogo{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     border: 5px solid rgb(20, 204, 54);
     background: #0d0d43;

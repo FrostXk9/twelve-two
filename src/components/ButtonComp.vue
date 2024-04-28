@@ -1,7 +1,7 @@
 <template>
     <a href="https://bookem.co.za/" id="btn" class="btn">
 
-        {{ btnContent="Workshops/seminars" }}
+        {{ btnContent="Workshops & seminars" }}
 
     </a>
 
@@ -27,7 +27,24 @@
 
 <style scoped>
 
-#btn {
+#btn:nth-child(1){
+    color: rgb(255, 255, 255);
+    width: 20%;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 0.3s;
+    background-color: #47dd2200;
+    overflow: hidden;
+    /* border-radius: 50px; */
+    box-shadow: inset 10px 10px 10px 10px #fbfbfb2d;
+}
+#btn:nth-child(2){
     color: rgb(255, 255, 255);
     width: 20%;
     text-transform: uppercase;
@@ -42,6 +59,23 @@
     overflow: hidden;
     /* border-radius: 50px; */
     box-shadow: inset 10px 10px 10px 10px #2ba4152d;
+}
+#btn:nth-child(3){
+    color: rgb(255, 255, 255);
+    width: 20%;
+    border: 1px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 0.3s;
+    background-color: #ffffff00;
+    overflow: hidden;
+    /* border-radius: 50px; */
+    box-shadow: inset 10px 10px 10px 10px #ffffff2d;
 }
 
 #btn:hover {
@@ -68,20 +102,38 @@
 }
 
 @media (max-width: 800px) {
-    #btn {
+    #btn:nth-child(1) {
         color: rgb(255, 255, 255);
         width: 35%;
         text-transform: uppercase;
         text-decoration: none;
         padding: 10px 5px;
         font-size: 10px;
-        font-weight: bold;
-        background: transparent;
-        position: relative;
-        transition: all 0.3s;
-        background-color: #48DD22;
-        overflow: hidden;
-        box-shadow: inset 10px 10px 10px 10px #2ba4152d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn:nth-child(2) {
+        color: rgb(255, 255, 255);
+        width: 35%;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 5px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn:nth-child(3) {
+        color: rgb(255, 255, 255);
+        width: 35%;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 5px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #btn::after {
@@ -104,20 +156,29 @@
 
 
 @media (max-width: 400px) {
-    #btn {
+    #btn:nth-child(1) {
         color: rgb(255, 255, 255);
         width: 50%;
         text-transform: uppercase;
         text-decoration: none;
         padding: 10px 5px;
         font-size: 10px;
-        font-weight: bold;
-        background: transparent;
-        position: relative;
-        transition: all 0.3s;
-        background-color: #48DD22;
-        overflow: hidden;
-        box-shadow: inset 10px 10px 10px 10px #2ba4152d;
+    }
+    #btn:nth-child(2) {
+        color: rgb(255, 255, 255);
+        width: 50%;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+    #btn:nth-child(3) {
+        color: rgb(255, 255, 255);
+        width: 50%;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px 5px;
+        font-size: 10px;
     }
 
     #btn::after {
@@ -143,20 +204,29 @@
 
 
 @media (max-width: 325px) {
-    #btn {
+    #btn:nth-child(1) {
     color: rgb(255, 255, 255);
     width: 35%;
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 5px;
     font-size: 10px;
-    font-weight: bold;
-    background: transparent;
-    position: relative;
-    transition: all 0.3s;
-    background-color: #48DD22;
-    overflow: hidden;
-    box-shadow: inset 10px 10px 10px 10px #2ba4152d;
+}
+    #btn:nth-child(2) {
+    color: rgb(255, 255, 255);
+    width: 35%;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 10px;
+}
+    #btn:nth-child(3) {
+    color: rgb(255, 255, 255);
+    width: 35%;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px;
+    font-size: 10px;
 }
 
 #btn::after {

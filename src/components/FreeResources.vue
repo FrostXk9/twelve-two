@@ -6,7 +6,7 @@
                 <img src="https://cdn-images.imagevenue.com/fd/f2/b7/ME17OWEC_o.jpg" class="d-block mx-lg-auto img-fluid rounded-5 shadow adjust_img_width_to_screen" alt="@twelveTwo_Affirmation" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6 rounded-5 height_">
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Free resources</h1>
+                <h1 class="display-5 fw-bold text-white lh-1 mb-3">Free resources <i class="fa-solid fa-book fa-sm fa-bounce" style="color: #fff;"></i></h1>
                 <div class="container">
                     <CarouselComp />
                 </div>
@@ -45,7 +45,7 @@ export default {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: rgb(236, 255, 233);
+        background: radial-gradient(rgb(120, 230, 104), hsla(233, 64%, 67%, 0.788));
     }
 
     @media (max-width: 376px) {
