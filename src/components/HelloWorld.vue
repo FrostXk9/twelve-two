@@ -67,12 +67,10 @@
   
   <script>
   import ButtonComp from './ButtonComp.vue';
-  import offcanvasComp from './offcanvasComp.vue'
   
   export default {
     components : {
       ButtonComp,
-      offcanvasComp
     }
   }
   

@@ -11,23 +11,49 @@
     :modules="modules"
     class="mySwiper my-3 shadow rounded-2"
   >
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 1</swiper-slide>
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">
+      <div id="cd" class="py-3 m-4 justify-sm px-3">
+        <offcanvasCard cardContent="Get out of debt - Through our partnership with the dfree® Global Foundation, you get financial freedom lessons at your fingertips from virtually anywhere through the dfree® online Academy "/>
+        <a class="btn text-white my-2" id="button" target="_blank" href="https://academy.dfreefoundation.org/">Click here</a>
+      </div>
+    </swiper-slide>
 
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 2</swiper-slide>
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">
+      <div id="cd" class="py-3 m-4 justify-sm px-3">
+        <offcanvasCard cardContent="Access your credit report - Experian provides free credit reports and free credit scores on My Credit Check"/>
+          <a class="btn text-white my-2" id="button" target="_blank" href="https://www.mycreditcheck.co.za/">Click here</a>
+      </div>
+    </swiper-slide>
 
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 3</swiper-slide>
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">
+      <div id="cd" class="py-3 m-4 justify-sm px-3">
+        <offcanvasCard cardContent="South Africans broke and stressed"/>
+          <a class="btn text-white my-2" id="button" target="_blank" href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">Click here</a>
+      </div>
+    </swiper-slide>
 
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 4</swiper-slide>
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">
+      <div id="cd" class="py-3 m-4 justify-sm px-3">
+        <offcanvasCard cardContent="Rachel Kolisi on managing money"/>
+          <a class="btn text-white my-2" id="button" target="_blank" href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">Click here</a>
+      </div>
+    </swiper-slide>
 
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 5</swiper-slide>
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">
+      <div id="cd" class="py-3 m-4 justify-sm px-3">
+        <offcanvasCard cardContent="Record keeping for entrepreneurs"/>
+          <a class="btn text-white my-2" id="button" target="_blank" href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">Click here</a>
+      </div>
+    </swiper-slide>
 
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 6</swiper-slide>
+    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">
+      
+      <div id="cd" class="py-3 m-4 justify-sm px-3">
+        <offcanvasCard cardContent="Time - the secret to long-term wealth creation"/>
+          <a class="btn text-white my-2" id="button" target="_blank" href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">Click here</a>
+      </div>
 
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 7</swiper-slide>
-
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 8</swiper-slide>
-
-    <swiper-slide class="height_slide rounded-2 apply_primary_company_color">Slide 9</swiper-slide>
+    </swiper-slide>
 
   </swiper>
 
@@ -35,6 +61,7 @@
 <script>
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
+  import offcanvasCard from './offcanvasCard.vue';
 
   // Import Swiper styles
   import 'swiper/css';
@@ -49,6 +76,7 @@
     components: {
       Swiper,
       SwiperSlide,
+      offcanvasCard
     },
     setup() {
       return {
@@ -70,5 +98,40 @@
   .apply_primary_company_color{
     background-color: rgb(255, 255, 255);
   }
+
+  
+  #button{
+    background: radial-gradient(circle, rgb(50, 212, 53), rgb(50, 212, 13));
+    color: white;
+  }
+
+  #button:hover{
+    transform: scale(110%);
+    transition: all 0.1s ease-in-out;
+  }
+
+    #cd{
+      width: 80%;
+      background-color: rgb(252, 250, 250);
+      border-radius: 15px;
+      box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.13);
+    }
+
+    #cardsBody{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 550px) {
+      #cardsBody{
+        display: flex;
+        justify-content: center;
+
+      }
+      .justify-sm{
+        text-align: justify;
+      }
+    }
 
 </style>

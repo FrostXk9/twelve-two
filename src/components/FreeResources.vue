@@ -45,7 +45,7 @@ export default {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: radial-gradient(rgb(120, 230, 104), hsla(233, 64%, 67%, 0.788));
+        background: radial-gradient(circle, hsla(233, 57%, 56%, 0.788), rgb(255, 255, 255));
     }
 
     @media (max-width: 376px) {
