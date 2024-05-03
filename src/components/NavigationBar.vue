@@ -1,8 +1,10 @@
 <template>
     <nav class="navbar navbar-expand-lg" id="navbar">
       <div class="container-fluid">
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon bg-white rounded-1"></span>
+        <button class="navbar-toggler border-0 button" id="nav-container" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <a class="navbar-brand" href="/">
@@ -114,6 +116,45 @@
     border: 5px solid rgb(20, 204, 54);
     background: #0d0d43;
     box-shadow: 1px 1px 10px 1px black;
+  }
+
+  .button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    pointer-events: auto;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  .icon-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: rgb(20, 204, 54);
+    transition: .3s;
+  }
+  .icon-bar + .icon-bar {
+    margin-top: 5px;
+  }
+  #nav-container:focus-within .button {
+    pointer-events: none;
+  }
+  #nav-container:focus-within .icon-bar:nth-of-type(1) {
+    transform: translate3d(0,8px,0) rotate(45deg);
+  }
+  #nav-container:focus-within .icon-bar:nth-of-type(2) {
+    opacity: 0;
+  }
+  #nav-container:focus-within .icon-bar:nth-of-type(3) {
+    transform: translate3d(0,-8px,0) rotate(-45deg);
   }
   
   @media (max-width: 992px) {

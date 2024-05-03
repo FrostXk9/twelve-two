@@ -5,7 +5,7 @@
 
     </a>
 
-    <a href="#about" id="btn" class="btn">
+    <a href="#contact" id="btn" class="btn">
 
         {{ btnContent="One-on Coaching" }}
 

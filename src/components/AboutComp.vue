@@ -101,7 +101,7 @@
                       
         </div>
                   
-        <h2 class="fw-bold">Individual Coaching</h2>
+        <h2 class="fw-bold fs-4">Individual Coaching</h2>
                   
         <p class="justify container">Personalized guidance on day-to-day and long term financial management, savings, investments, and achieving lasting financial freedom. We empower individuals to focus on their life's purpose with financial confidence.</p>
       
@@ -116,7 +116,7 @@
           
         </div>
         
-        <h2 class="fw-bold">Rands and Sense</h2>
+        <h2 class="fw-bold fs-4">Rands and Sense</h2>
         
         <p class="justify container">This is our regular online series addressing diverse personal finance and business themes such as debt, spending plans, saving vs investing etc. </p>
         
@@ -130,7 +130,7 @@
       
         </div>
       
-        <h2 class="fw-bold">Wealthy mind seminars</h2>
+        <h2 class="fw-bold fs-4">Wealthy mind seminars</h2>
       
         <p class="justify container">We bring together an unstoppable network of individuals and communities – people who care about financial health to make a difference. These in-depth sessions provide practical strategies for improving money management and building intergenerational wealth. Topics include the law of contracts in marriage and business, estate planning, short and long-term insurance, education planning, tax and many more. </p>
       
@@ -144,7 +144,7 @@
 
       </div>
 
-      <h2 class="fw-bold">Customised Financial Wellness Programs</h2>
+      <h2 class="fw-bold fs-4">Customised Financial Wellness Programs</h2>
 
       <p class="justify container">Our partnership with organisations involves crafting and guiding personalised financial wellness initiatives for employees or beneficiaries. These programs target reducing problems like absenteeism due to financial stress or garnishee orders for staff in debt, while also enhancing comprehension of workplace pension and insurance products.</p>
 
@@ -152,89 +152,6 @@
 
   </div>
   
-  
-  
-  
-
-  <!-- <div id="carousel" class="container mt-3 p-4 gap-4 d-flex justify-content-center">
-
-      <div class="card mb-3" id="card">
-
-        <div class="card-body">
-
-          <div class="container my-2">
-
-            <h1 class="display-5 fw-bold text-black">Free Resources</h1>
-        
-            <dividerComp />
-        
-          </div>
-
-          <p class="card-text lead text-black-50">Access essential tools for financial mastery – explore our free resources now!"</p>
-
-          <div class="d-flex justify-content-center" id="scroll">
-
-            <div class="d-flex row mt-2 w-100">
-
-              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-
-                <p class="text-white fw-bold fs-3">South Africans <br> broke and stressed</p>
-
-                <a href="https://mg.co.za/news/2023-10-18-broke-and-stressed-south-africans-spiral-into-debt-trap/">
-
-                  <GlobalBtnComp textContent="Go to link"/>
-
-                </a>
-
-              </div>
-
-              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-
-                <p class="text-white fw-bold fs-3">Rachel Kolisi <br>on managing money</p>
-
-
-                <a href="https://omny.fm/shows/other-peoples-money/other-people-s-money-rachel-kolisi-co-founder-of-k">
-
-                  <GlobalBtnComp textContent="Go to link"/>
-
-                </a>
-              </div>
-
-              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-
-                <p class="text-white fw-bold fs-3">Record keeping <br>for entrepreneurs</p>
-
-                <a href="https://www.taxtim.com/za/blog/6-reasons-accounting-records-are-critical-to-your-small-business">
-
-                  <GlobalBtnComp textContent="Go to link"/>
-
-                </a>
-
-              </div>
-
-              <div class="border border-2 rounded-3 p-1 mb-1" id="cardsm">
-
-                <p class="text-white fw-bold fs-3">Time- <br> the secret to long-term wealth creation</p>
-
-                <a href="https://www.allangray.co.za/latest-insights/corporate-citizenship/time-the-greatest-gift-of-all/">
-
-                  <GlobalBtnComp textContent="Go to link"/>
-
-                </a>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    
-  </div> -->
-
-
   </div>
     
 </template>

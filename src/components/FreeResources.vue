@@ -2,11 +2,11 @@
     <div id="freeRes">
         <div class="container col-xxl-12 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
+            <div class="col-10 col-sm-8 col-lg-6 container">
                 <img src="https://cdn-images.imagevenue.com/fd/f2/b7/ME17OWEC_o.jpg" class="d-block mx-lg-auto img-fluid rounded-5 shadow adjust_img_width_to_screen" alt="@twelveTwo_Affirmation" width="700" height="500" loading="lazy">
             </div>
             <div class="col-lg-6 rounded-5 height_">
-                <h1 class="display-5 fw-bold text-white lh-1 mb-3">Free resources <i class="fa-solid fa-book fa-sm fa-bounce" style="color: #fff;"></i></h1>
+                <h1 class="display-5 fw-bold text-black-75 lh-1 mb-3">Free resources <i class="fa-solid fa-book fa-sm" style="color: #000000;"></i></h1>
                 <div class="container">
                     <CarouselComp />
                 </div>
@@ -33,6 +33,8 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        background: radial-gradient(circle, hsla(233, 100%, 60%, 0.788), rgb(255, 255, 255));
+        background-attachment: fixed;
     }
 
     .justify{
@@ -40,17 +42,16 @@ export default {
     }
 
     .height_{
-        min-height: 550px;
+        /* min-height: 550px; */
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background: radial-gradient(circle, hsla(233, 57%, 56%, 0.788), rgb(255, 255, 255));
     }
 
     @media (max-width: 376px) {
         .adjust_img_width_to_screen{
-            min-width: 320px !important;
+            min-width: 280px !important;
             height: 300px;
             object-fit: cover;
         }

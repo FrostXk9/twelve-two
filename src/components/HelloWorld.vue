@@ -4,11 +4,9 @@
 
     <div class="col-md-12 p-lg-2 mx-auto container" id="childpg34">
       
-      
-      
-      <div class="display-1 fw-normal text-black mb-1" id="fontify">
-        <span class="T">T</span>welve <span class="T">T</span>wo
-      </div>
+      <h1 class="display-1 fw-normal text-black mb-1" id="fontify">
+       - <span class="T">T</span>welve <span class="T">T</span>wo -
+      </h1>
       
       <div id="rotate">
         <div class="rtpov">

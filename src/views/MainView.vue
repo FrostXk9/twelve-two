@@ -15,17 +15,17 @@
     <FreeResources />
 
   </div>
-  <div id="testimonials">
+  <!-- <div id="testimonials">
     
     <testimonialCardVue />
     
-  </div>
+  </div> -->
 
-  <!-- <div id="contact">
+  <div id="contact">
 
     <ContactComp />
 
-  </div> -->
+  </div>
 
 </template>
 
@@ -59,7 +59,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   border-image: fill 0 linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.838) 70%);
-  min-height: 105vh;
+  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
