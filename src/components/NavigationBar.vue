@@ -118,6 +118,8 @@
     box-shadow: 1px 1px 10px 1px black;
   }
 
+  
+  @media (max-width: 992px) {
   .button {
     position: relative;
     display: flex;
@@ -156,8 +158,6 @@
   #nav-container:focus-within .icon-bar:nth-of-type(3) {
     transform: translate3d(0,-8px,0) rotate(-45deg);
   }
-  
-  @media (max-width: 992px) {
     #navbar{
       position: fixed;
       top: 0%;
