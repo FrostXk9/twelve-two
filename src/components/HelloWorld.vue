@@ -85,7 +85,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: radial-gradient(circle, hsla(233, 57%, 56%, 0.788), rgb(255, 255, 255));
+/*     background: radial-gradient(circle, hsla(233, 57%, 56%, 0.788), rgb(255, 255, 255)); */
     /* border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.665), #030404a6); */
     background-attachment: fixed;
   }
