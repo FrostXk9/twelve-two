@@ -1,6 +1,6 @@
 <template>
 
-  <div class="position-relative overflow-hidden text-center" id="landingPage">
+  <div class="position-relative overflow-hidden text-center desire" id="landingPage">
 
     <div class="col-md-12 p-lg-2 mx-auto container" id="childpg34">
       
@@ -222,6 +222,27 @@
       transform: translateY(-400%);
     }
   }
+
+    .desire{
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 100%;
+      height: 110vh;
+      background: linear-gradient(-50deg, rgb(13, 255, 0), #2DA837, rgb(30 33 79), #2DA860);
+      background-size: 200% 200%;
+      animation: fire 7s ease infinite;
+    }
+    @keyframes fire {
+        0%{
+        background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0% 50%;
+      }
+    }
   
   h3 {
     margin: 40px 0 0;
