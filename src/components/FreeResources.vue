@@ -33,7 +33,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: radial-gradient(circle, hsla(233, 100%, 60%, 0.788), rgb(255, 255, 255));
+/*         background: radial-gradient(circle, hsla(233, 100%, 60%, 0.788), rgb(255, 255, 255)); */
         background-attachment: fixed;
     }
 
